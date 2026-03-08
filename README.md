@@ -101,7 +101,7 @@ $ cat /etc/profile.d/loic.sh
 </details>
 
 <details open>
-<summary><b>🔐 &nbsp;DevOps, Outils & Cyber</b></summary>
+<summary><b>🔐 &nbsp;Outils & Cyber</b></summary>
 <br>
 
 ![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=00FF41)
