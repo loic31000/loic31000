@@ -95,7 +95,6 @@ $ cat /etc/profile.d/loic.sh
 ![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=node.js&logoColor=00FF41)
 ![PHP](https://img.shields.io/badge/PHP-0D1117?style=for-the-badge&logo=php&logoColor=00FF41)
 ![Symfony](https://img.shields.io/badge/Symfony-0D1117?style=for-the-badge&logo=symfony&logoColor=00FF41)
-![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=00FF41)
 ![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00FF41)
 
 </details>
