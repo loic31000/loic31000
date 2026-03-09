@@ -59,7 +59,7 @@ $ cat /etc/profile.d/loic.sh
 
 | Projet | Description | Stack | Lien |
 |:------:|:-----------:|:-----:|:----:|
-| 🎬 **MarsAI** | Festival de courts métrages générés par IA | `AI` `Génératif` | [→](https://github.com/loic31000) |
+| 🎬 **MarsAI** | Festival de courts métrages générés par IA | `Nodejs` `React` `Tailswind` | 🔒 Privé |
 | 🗄️ **Gestion Médiathèque** | Système complet de gestion — focus sécurité des données | `PHP` `Symfony` `MVC` | 🔒 Privé |
 | 🐍 **FileRenamer** | Application Python de renommage multimédia en masse | `Python` | [→](https://github.com/loic31000/FileRenamer) |
 | 🌍 **Earth Defender** | Jeu de défense de la Terre en JavaScript | `JS` `Canvas` `DOM` | [→](https://github.com/loic31000/Earth-Defender-Project) |
