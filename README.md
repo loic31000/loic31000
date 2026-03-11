@@ -46,7 +46,7 @@ $ cat /etc/profile.d/loic.sh
 | 🛡️ | Cybersécurité autodidacte — sécurité offensive & analyse de vulnérabilités |
 | ⚙️ | Architecture **MVC**, **API REST**, **Full-Stack Web & Application** |
 | 🤖 | Passionné d'**IA générative** appliquée à des projets concrets |
-| 📫 | Disponible via GitHub ou LinkedIn |
+| 📫 | Disponible via GitHub |
 
 </div>
 
