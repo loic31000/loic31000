@@ -1,78 +1,122 @@
-<!-- HEADER -->
-<div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,40:001a00,100:00FF41&height=140&section=header&text=&animation=fadeIn" width="100%"/>
 
-```
+<div align="center">
+
+<pre>
  ██╗      ██████╗ ██╗ ██████╗     ██████╗ ███████╗██╗   ██╗
  ██║     ██╔═══██╗██║██╔════╝     ██╔══██╗██╔════╝██║   ██║
  ██║     ██║   ██║██║██║          ██║  ██║█████╗  ██║   ██║
  ██║     ██║   ██║██║██║          ██║  ██║██╔══╝  ╚██╗ ██╔╝
  ███████╗╚██████╔╝██║╚██████╗     ██████╔╝███████╗ ╚████╔╝
  ╚══════╝ ╚═════╝ ╚═╝ ╚═════╝     ╚═════╝ ╚══════╝  ╚═══╝
-```
+</pre>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=750&lines=Full-Stack+Developer+%26+Cyber+Enthusiast+%F0%9F%94%90;TypeScript+%7C+React+%7C+Node.js+%7C+PHP+%7C+Symfony;Pensez+offensive.+Codez+d%C3%A9fensif.;La+Plateforme+%E2%80%94+Formation+Intensive+%F0%9F%9A%80)](https://git.io/typing-svg)
 
-[![Profile Views](https://komarev.com/ghpvc/?username=loic31000&color=00FF41&style=flat-square&label=VISITES)](https://github.com/loic31000)
-[![GitHub followers](https://img.shields.io/github/followers/loic31000?color=00FF41&logo=github&logoColor=00FF41&style=flat-square)](https://github.com/loic31000)
-[![Repos](https://img.shields.io/badge/Repos-21-00FF41?style=flat-square&logo=github&logoColor=00FF41)](https://github.com/loic31000?tab=repositories)
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=loic31000&show_icons=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=ffffff&border_color=00FF41&count_private=true" height="165"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loic31000&layout=compact&bg_color=0D1117&title_color=00FF41&text_color=ffffff&border_color=00FF41&count_private=true" height="165"/>
 
 </div>
 
 ---
 
-<!-- WHOAMI -->
-<div align="center"><h3><code>> whoami</code></h3></div>
+<div align="center"><h3><code>> $ cat /etc/profile.d/loic.sh ./projects</code></h3></div>
 
-```bash
-$ cat /etc/profile.d/loic.sh
-
+<div align="center">
+<pre>
   ┌─────────────────────────────────────────────────────────┐
   │  Name     :  Loïc                                       │
   │  Role     :  Full-Stack Dev & Autodidact Pentester      │
   │  School   :  La Plateforme_ [Formation Intensive]       │
   │  Stack    :  Web · Mobile · API · Sécurité              │
-  │  Status   :  En formation...    Chargement[▓▓▓▓▓▓▓▓░░░] │
+  │  Status   :  En formation...  Chargement[▓▓▓▓▓▓▓▓░░░]   │
   │  Mission  :  Apps performantes & sécurisées by design   │
   └─────────────────────────────────────────────────────────┘
-```
+</pre>
+</div>
 
 <div align="center">
-
-|  | |
-|:---:|:---|
-| 🏫 | Formation intensive à **La Plateforme_** |
-| 🛡️ | Cybersécurité autodidacte — sécurité offensive & analyse de vulnérabilités |
-| ⚙️ | Architecture **MVC**, **API REST**, **Full-Stack Web & Application** |
-| 🤖 | Passionné d'**IA générative** appliquée à des projets concrets |
-| 📫 | Disponible via GitHub |
-
+<table>
+  <tr><td align="center">🏫</td><td>Formation intensive à <b>La Plateforme_</b></td></tr>
+  <tr><td align="center">🛡️</td><td>Cybersécurité autodidacte — sécurité offensive & analyse de vulnérabilités</td></tr>
+  <tr><td align="center">⚙️</td><td>Architecture <b>MVC</b>, <b>API REST</b>, <b>Full-Stack Web & Application</b></td></tr>
+  <tr><td align="center">🤖</td><td>Passionné d'<b>IA générative</b> appliquée à des projets concrets</td></tr>
+  <tr><td align="center">📫</td><td>Disponible via GitHub</td></tr>
+</table>
 </div>
 
 ---
 
-<!-- PROJETS -->
 <div align="center"><h3><code>> ls -la ./projects</code></h3></div>
 
 <div align="center">
-
-| Projet | Description | Stack | Lien |
-|:------:|:-----------:|:-----:|:----:|
-| 🎬 **MarsAI** | Festival de courts métrages générés par IA | `Nodejs` `React` `Tailswind` | 🔒 Privé |
-| 🗄️ **Gestion Médiathèque** | Système complet de gestion — focus sécurité des données | `PHP` `Symfony` `MVC` | 🔒 Privé |
-| 🐍 **FileRenamer** | Application Python de renommage multimédia en masse | `Python` | [→](https://github.com/loic31000/FileRenamer) |
-| 🌍 **Earth Defender** | Jeu de défense de la Terre en JavaScript | `JS` `Canvas` `DOM` | [→](https://github.com/loic31000/Earth-Defender-Project) |
-| 🔴 **Pokédex SPA** | Single Page App — Pokédex via PokéAPI | `JavaScript` `API REST` | [→](https://github.com/loic31000/PokedexSPA) |
-| 🎬 **Allocine Clone** | Clone Allociné avec backend PHP | `PHP` `MVC` | [→](https://github.com/loic31000/project-allocine) |
-| 📸 **Mini-Insta** | Mini réseau social à la Instagram | `PHP` `SQL` | [→](https://github.com/loic31000/Mini-Insta) |
-| 🗺️ **Géolocalisation Leaflet** | Démo de géolocalisation avec Leaflet.js | `JS` `Maps API` | [→](https://github.com/loic31000/demo-geopos-leaflet) |
-
+<table>
+  <thead>
+    <tr>
+      <th>Projet</th>
+      <th>Description</th>
+      <th>Stack</th>
+      <th>Lien</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🎬 <b>MarsAI</b></td>
+      <td>Festival de courts métrages générés par IA</td>
+      <td><code>Node.js</code> <code>React</code> <code>Tailwind</code></td>
+      <td>🔒 Privé</td>
+    </tr>
+    <tr>
+      <td>🗄️ <b>Projet Médiathèque</b></td>
+      <td>Système complet de gestion — focus sécurité des données</td>
+      <td><code>PHP</code> <code>Symfony</code> <code>MVC</code></td>
+      <td>🔒 Privé</td>
+    </tr>
+    <tr>
+      <td>🐍 <b>FileRenamer</b></td>
+      <td>Application Python de renommage multimédia en masse</td>
+      <td><code>Python</code></td>
+      <td><a href="https://github.com/loic31000/FileRenamer">→</a></td>
+    </tr>
+    <tr>
+      <td>🌍 <b>Earth Defender</b></td>
+      <td>Jeu de défense de la Terre en JavaScript</td>
+      <td><code>JS</code> <code>Canvas</code> <code>DOM</code></td>
+      <td><a href="https://github.com/loic31000/Earth-Defender-Project">→</a></td>
+    </tr>
+    <tr>
+      <td>🔴 <b>Pokédex SPA</b></td>
+      <td>Single Page App — Pokédex via PokéAPI</td>
+      <td><code>JavaScript</code> <code>API REST</code></td>
+      <td><a href="https://github.com/loic31000/PokedexSPA">→</a></td>
+    </tr>
+    <tr>
+      <td>🎬 <b>Allocine Clone</b></td>
+      <td>Clone Allociné avec backend PHP</td>
+      <td><code>PHP</code> <code>MVC</code></td>
+      <td><a href="https://github.com/loic31000/project-allocine">→</a></td>
+    </tr>
+    <tr>
+      <td>📸 <b>Mini-Insta</b></td>
+      <td>Mini réseau social à la Instagram</td>
+      <td><code>PHP</code> <code>SQL</code></td>
+      <td><a href="https://github.com/loic31000/Mini-Insta">→</a></td>
+    </tr>
+    <tr>
+      <td>🗺️ <b>Géolocalisation Leaflet</b></td>
+      <td>Démo de géolocalisation avec Leaflet.js</td>
+      <td><code>JS</code> <code>Maps API</code></td>
+      <td><a href="https://github.com/loic31000/demo-geopos-leaflet">→</a></td>
+    </tr>
+  </tbody>
+</table>
 </div>
 
 ---
 
-<!-- STACK -->
 <div align="center"><h3><code>> cat ./stack.json</code></h3></div>
 
 <details open>
@@ -115,11 +159,8 @@ $ cat /etc/profile.d/loic.sh
 
 ---
 
-<!-- STATS -->
 <div align="center">
-
 <h3><code>> ./stats --verbose</code></h3>
-
 <br>
 
 ![PHP](https://img.shields.io/badge/PHP-%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%81%E2%96%81-00FF41?style=flat-square&labelColor=0D1117)
@@ -131,35 +172,33 @@ $ cat /etc/profile.d/loic.sh
 
 <br>
 
-```
+<pre>
   ╔══════════════════════════════════════╗
   ║  📦  Repositories   :   21           ║
   ║  ⭐  Stars           :   2           ║
   ║  🏆  Achievements   :   Pull Shark   ║
   ║  💻  Langages       :   6+           ║
   ╚══════════════════════════════════════╝
-```
+</pre>
 
 </div>
 
 ---
 
-<!-- CYBER MINDSET -->
 <div align="center"><h3><code>> grep "mindset" ./brain -r</code></h3></div>
 
-```diff
-+ Penser comme un attaquant pour coder comme un défenseur.
-+ La sécurité n'est pas une feature. C'est une architecture.
-- Un système vulnérable n'est pas terminé, même s'il fonctionne.
-
-  [ RECON ] ──► [ BUILD ] ──► [ EXPLOIT ] ──► [ PATCH ] ──► [ REPEAT ]
-```
+<div align="center">
+<pre>
+  + Penser comme un attaquant pour coder comme un défenseur.
+  + La sécurité n'est pas une feature. C'est une architecture.
+  - Un système vulnérable n'est pas terminé, même s'il fonctionne.
+    [ RECON ] ──► [ BUILD ] ──► [ EXPLOIT ] ──► [ PATCH ] ──► [ REPEAT ]
+</pre>
+</div>
 
 ---
 
-<!-- CONTACT -->
 <div align="center">
-
 <h3><code>> ./connect.sh --target loic</code></h3>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FF41)](https://linkedin.com)
@@ -167,7 +206,5 @@ $ cat /etc/profile.d/loic.sh
 [![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:ton@email.com)
 
 </div>
-
-<br>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF41,60:001a00,100:0D1117&height=100&section=footer" width="100%"/>
