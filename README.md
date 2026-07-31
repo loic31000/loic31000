@@ -15,23 +15,6 @@
 
 <br/>
 
-<div align="center">
-  <img
-    height="195"
-    src="https://github-readme-stats-nu-red-22.vercel.app/api?username=loic31000&show_icons=true&include_all_commits=true&count_private=true&private_contributions=true&card_width=420&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=ffffff&border_color=00FF41"
-  />&nbsp;&nbsp;<img
-    height="195"
-    src="https://github-readme-stats-nu-red-22.vercel.app/api/top-langs/?username=loic31000&layout=compact&count_private=true&private_contributions=true&langs_count=10&card_width=450&bg_color=0D1117&title_color=00FF41&text_color=ffffff&border_color=00FF41"
-  />
-</div>
-
-
-
-
-
-
-
-</div>
 
 ---
 
