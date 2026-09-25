@@ -27,7 +27,7 @@
 ┌───────────────────────────────────────────────────────────────┐
 │ Name     : Loïc                                               │
 │ Role     : Full-Stack Web & Mobile Developer                  │
-│ Training : La Plateforme_                                     │
+│ Training : La Plateforme                                      │
 │ Focus    : Web · APIs · Security · Data · Automation          │
 │ Stack    : PHP · Symfony · React · Node · Go · Python         │
 │ Mission  : Build useful systems and understand how they fail  │
@@ -36,7 +36,7 @@
 
 </div>
 
-Développeur Web & Mobile Full-Stack en formation à **La Plateforme_**, je conçois des applications complètes allant du frontend aux APIs, à la logique métier et aux bases de données.
+Développeur Web & Mobile Full-Stack en formation à **La Plateforme**, je conçois des applications complètes allant du frontend aux APIs, à la logique métier et aux bases de données.
 
 Je développe également des outils autour de la **cybersécurité**, du **réseau**, de l'**OSINT**, du **Threat Intelligence**, de l'**automatisation** et de l'analyse de données.
 
@@ -46,7 +46,7 @@ Je développe également des outils autour de la **cybersécurité**, du **rése
 <h3><code>> ls -la ./featured-projects</code></h3>
 </div>
 
-## 🏆 Projets phares - La Plateforme_
+## 🏆 Projets phares - La Plateforme
 
 <table>
 <thead>
@@ -62,7 +62,7 @@ Je développe également des outils autour de la **cybersécurité**, du **rése
 
 <tr>
 <td>🎬 <b>MarsAI</b></td>
-<td><b>Projet de groupe - La Plateforme_</b></td>
+<td><b>Projet de groupe - La Plateforme</b></td>
 <td>
 Plateforme autour d'un festival de courts métrages générés par intelligence artificielle.
 Projet Full-Stack réalisé en équipe avec intégration frontend/backend et logique applicative.
@@ -77,7 +77,7 @@ Projet Full-Stack réalisé en équipe avec intégration frontend/backend et log
 
 <tr>
 <td>📚 <b>Médiathèque</b></td>
-<td><b>Projet de groupe - La Plateforme_</b></td>
+<td><b>Projet de groupe - La Plateforme</b></td>
 <td>
 Application de gestion de médiathèque avec architecture métier,
 gestion de données relationnelles et attention portée à la sécurité des données.
@@ -93,7 +93,7 @@ gestion de données relationnelles et attention portée à la sécurité des don
 
 <tr>
 <td>🧾 <b><a href="https://github.com/loic31000/phase3-symfony-facturation">SaaS Facturation</a></b></td>
-<td><b>La Plateforme_ - Symfony</b></td>
+<td><b>La Plateforme - Symfony</b></td>
 <td>
 Application de facturation avec gestion des utilisateurs, clients, produits,
 factures et lignes de facturation. Dashboard, authentification,
@@ -113,7 +113,7 @@ modélisation Doctrine et environnement conteneurisé.
 
 <tr>
 <td>✅ <b><a href="https://github.com/loic31000/phase3-symfony-tasklist-reloaded">TaskList Reloaded</a></b></td>
-<td><b>La Plateforme_ - Symfony</b></td>
+<td><b>La Plateforme - Symfony</b></td>
 <td>
 Application de gestion de tâches avec authentification,
 priorités, statuts, tâches épinglées, dossiers et relations utilisateurs/données.
@@ -129,7 +129,7 @@ priorités, statuts, tâches épinglées, dossiers et relations utilisateurs/don
 
 <tr>
 <td>🔴 <b>Pokédex - évolutions du projet</b></td>
-<td><b>La Plateforme_ - JavaScript → Symfony</b></td>
+<td><b>La Plateforme - JavaScript → Symfony</b></td>
 <td>
 Déclinaison progressive d'un même sujet au fil de la formation :
 d'abord un Pokédex frontend en JavaScript consommant une API externe,
@@ -155,7 +155,7 @@ formulaires et environnement Docker.
 
 <tr>
 <td>💬 <b><a href="https://github.com/loic31000/module5-react-threadfront">ThreadFront</a></b></td>
-<td><b>Projet de groupe - La Plateforme_</b></td>
+<td><b>Projet de groupe - La Plateforme</b></td>
 <td>
 Application sociale Full-Stack avec inscription et connexion JWT,
 feed avec scroll infini, création de threads, pages de détail,
@@ -179,7 +179,7 @@ Architecture entièrement conteneurisée.
 
 <tr>
 <td>🌍 <b><a href="https://github.com/loic31000/Earth-Defender-Project">Earth Defender</a></b></td>
-<td><b>La Plateforme_ - TypeScript / Game Dev</b></td>
+<td><b>La Plateforme - TypeScript / Game Dev</b></td>
 <td>
 Jeu d'arcade spatial où le joueur protège la Terre contre des vagues
 d'astéroïdes et d'envahisseurs. Gestion du score, vies, vagues,
@@ -301,7 +301,7 @@ des fichiers multimédias en masse.
 
 ```text
 2025 ─ 2026
-La Plateforme_
+La Plateforme
 Développeur Web & Applications - Bootcamp intensif
 
 → Applications Full-Stack
