@@ -128,18 +128,28 @@ priorités, statuts, tâches épinglées, dossiers et relations utilisateurs/don
 </tr>
 
 <tr>
-<td>🔴 <b><a href="https://github.com/loic31000/symfony_pokedex">Pokédex Symfony</a></b></td>
-<td><b>La Plateforme_ - Symfony</b></td>
+<td>🔴 <b>Pokédex - évolutions du projet</b></td>
+<td><b>La Plateforme_ - JavaScript → Symfony</b></td>
 <td>
-Application web Symfony 8 avec persistance Doctrine,
-PostgreSQL, formulaires, Twig, Tailwind et environnement Docker.
+Déclinaison progressive d'un même sujet au fil de la formation :
+d'abord un Pokédex frontend en JavaScript consommant une API externe,
+puis une version Symfony avec persistance PostgreSQL, Doctrine,
+formulaires et environnement Docker.
+<br><br>
+<a href="https://github.com/loic31000/PokedexSPA"> → PokedexSPA</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/loic31000/symfony_pokedex"> → Symfony Pokédex</a>
 </td>
 <td>
+<code>JavaScript</code>
+<code>REST API</code>
 <code>Symfony 8</code>
 <code>PHP 8.4</code>
 <code>Doctrine</code>
 <code>PostgreSQL</code>
-<code>Docker</code>
+<code>Twig</code>
+<code>Tailwind</code>
+<code>Docker Compose</code>
 </td>
 </tr>
 
