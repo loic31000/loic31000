@@ -1,10 +1,6 @@
 name: GitHub Profile Summary Cards
 
 on:
-  push:
-    paths:
-      - ".github/workflows/profile-summary-cards.yml"
-
   schedule:
     - cron: "0 0 * * *"
 
