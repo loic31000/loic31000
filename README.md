@@ -464,7 +464,7 @@ Projets :
 </p>
 
 <p align="center">
-  <img src="./profile-summary-card-output/github_dark/3-stats.svg" width="49%">
+  <img src="./assets/commit-count.svg" width="49%" alt="Custom GitHub commit counter">
   <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" width="49%">
 </p>
 
