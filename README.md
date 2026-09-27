@@ -358,6 +358,8 @@ Projets :
 <h3><code>> cat ./cyber-focus.md</code></h3>
 </div>
 
+<div align="center">
+
 <table>
 <thead>
 <tr>
@@ -432,6 +434,8 @@ Projets :
 </tr>
 </tbody>
 </table>
+
+</div>
 
 ---
 
