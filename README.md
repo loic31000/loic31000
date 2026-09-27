@@ -51,23 +51,23 @@ Je développe également des outils autour de la **cybersécurité**, du **rése
 <table>
 <thead>
 <tr>
-<th>Projet</th>
-<th>Contexte</th>
-<th>Description</th>
-<th>Stack</th>
+<th align="left" width="21%">Projet</th>
+<th align="left" width="20%">Contexte</th>
+<th align="left" width="39%">Description</th>
+<th align="left" width="20%">Stack</th>
 </tr>
 </thead>
 
 <tbody>
 
 <tr>
-<td>🎬 <b>MarsAI</b></td>
-<td><b>Projet de groupe - La Plateforme</b></td>
-<td>
+<td valign="top">🎬 <b>MarsAI</b></td>
+<td valign="top"><b>Projet de groupe - La Plateforme</b></td>
+<td valign="top">
 Plateforme autour d'un festival de courts métrages générés par intelligence artificielle.
 Projet Full-Stack réalisé en équipe avec intégration frontend/backend et logique applicative.
 </td>
-<td>
+<td valign="top">
 <code>React</code>
 <code>Node.js</code>
 <code>JavaScript / TypeScript</code>
@@ -76,13 +76,13 @@ Projet Full-Stack réalisé en équipe avec intégration frontend/backend et log
 </tr>
 
 <tr>
-<td>📚 <b>Médiathèque</b></td>
-<td><b>Projet de groupe - La Plateforme</b></td>
-<td>
+<td valign="top">📚 <b>Médiathèque</b></td>
+<td valign="top"><b>Projet de groupe - La Plateforme</b></td>
+<td valign="top">
 Application de gestion de médiathèque avec architecture métier,
 gestion de données relationnelles et attention portée à la sécurité des données.
 </td>
-<td>
+<td valign="top">
 <code>PHP</code>
 <code>Symfony</code>
 <code>Doctrine</code>
@@ -92,14 +92,14 @@ gestion de données relationnelles et attention portée à la sécurité des don
 </tr>
 
 <tr>
-<td>🧾 <b><a href="https://github.com/loic31000/phase3-symfony-facturation">SaaS Facturation</a></b></td>
-<td><b>La Plateforme - Symfony</b></td>
-<td>
+<td valign="top">🧾 <b><a href="https://github.com/loic31000/phase3-symfony-facturation">SaaS Facturation</a></b></td>
+<td valign="top"><b>La Plateforme - Symfony</b></td>
+<td valign="top">
 Application de facturation avec gestion des utilisateurs, clients, produits,
 factures et lignes de facturation. Dashboard, authentification,
 modélisation Doctrine et environnement conteneurisé.
 </td>
-<td>
+<td valign="top">
 <code>Symfony 8</code>
 <code>PHP 8.4</code>
 <code>Doctrine</code>
@@ -112,13 +112,13 @@ modélisation Doctrine et environnement conteneurisé.
 </tr>
 
 <tr>
-<td>✅ <b><a href="https://github.com/loic31000/phase3-symfony-tasklist-reloaded">TaskList Reloaded</a></b></td>
-<td><b>La Plateforme - Symfony</b></td>
-<td>
+<td valign="top">✅ <b><a href="https://github.com/loic31000/phase3-symfony-tasklist-reloaded">TaskList Reloaded</a></b></td>
+<td valign="top"><b>La Plateforme - Symfony</b></td>
+<td valign="top">
 Application de gestion de tâches avec authentification,
 priorités, statuts, tâches épinglées, dossiers et relations utilisateurs/données.
 </td>
-<td>
+<td valign="top">
 <code>Symfony</code>
 <code>Doctrine</code>
 <code>Auth</code>
@@ -128,19 +128,19 @@ priorités, statuts, tâches épinglées, dossiers et relations utilisateurs/don
 </tr>
 
 <tr>
-<td>🔴 <b>Pokédex - évolutions du projet</b></td>
-<td><b>La Plateforme - JavaScript → Symfony</b></td>
-<td>
+<td valign="top">🔴 <b>Pokédex - évolutions du projet</b></td>
+<td valign="top"><b>La Plateforme - JavaScript → Symfony</b></td>
+<td valign="top">
 Déclinaison progressive d'un même sujet au fil de la formation :
 d'abord un Pokédex frontend en JavaScript consommant une API externe,
 puis une version Symfony avec persistance PostgreSQL, Doctrine,
 formulaires et environnement Docker.
 <br><br>
-<a href="https://github.com/loic31000/PokedexSPA"> → PokedexSPA</a>
+<a href="https://github.com/loic31000/PokedexSPA">→ PokedexSPA</a>
 &nbsp;·&nbsp;
-<a href="https://github.com/loic31000/symfony_pokedex"> → Symfony Pokédex</a>
+<a href="https://github.com/loic31000/symfony_pokedex">→ Symfony Pokédex</a>
 </td>
-<td>
+<td valign="top">
 <code>JavaScript</code>
 <code>REST API</code>
 <code>Symfony 8</code>
@@ -154,15 +154,15 @@ formulaires et environnement Docker.
 </tr>
 
 <tr>
-<td>💬 <b><a href="https://github.com/loic31000/module5-react-threadfront">ThreadFront</a></b></td>
-<td><b>Projet de groupe - La Plateforme</b></td>
-<td>
+<td valign="top">💬 <b><a href="https://github.com/loic31000/module5-react-threadfront">ThreadFront</a></b></td>
+<td valign="top"><b>Projet de groupe - La Plateforme</b></td>
+<td valign="top">
 Application sociale Full-Stack avec inscription et connexion JWT,
 feed avec scroll infini, création de threads, pages de détail,
 profils utilisateurs et gestion sécurisée des sessions.
 Architecture entièrement conteneurisée.
 </td>
-<td>
+<td valign="top">
 <code>React 19</code>
 <code>React Router</code>
 <code>Vite</code>
@@ -178,14 +178,14 @@ Architecture entièrement conteneurisée.
 </tr>
 
 <tr>
-<td>🌍 <b><a href="https://github.com/loic31000/Earth-Defender-Project">Earth Defender</a></b></td>
-<td><b>La Plateforme - TypeScript / Game Dev</b></td>
-<td>
+<td valign="top">🌍 <b><a href="https://github.com/loic31000/Earth-Defender-Project">Earth Defender</a></b></td>
+<td valign="top"><b>La Plateforme - TypeScript / Game Dev</b></td>
+<td valign="top">
 Jeu d'arcade spatial où le joueur protège la Terre contre des vagues
 d'astéroïdes et d'envahisseurs. Gestion du score, vies, vagues,
 projectiles, collisions et entités orientées objet.
 </td>
-<td>
+<td valign="top">
 <code>TypeScript</code>
 <code>HTML5 Canvas</code>
 <code>OOP</code>
@@ -205,17 +205,17 @@ projectiles, collisions et entités orientées objet.
 <table>
 <thead>
 <tr>
-<th>Projet</th>
-<th>Description</th>
-<th>Stack / Concepts</th>
+<th align="left" width="22%">Projet</th>
+<th align="left" width="53%">Description</th>
+<th align="left" width="25%">Stack / Concepts</th>
 </tr>
 </thead>
 
 <tbody>
 
 <tr>
-<td>🧾 <b>FacturePro</b></td>
-<td>
+<td valign="top">🧾 <b>FacturePro</b></td>
+<td valign="top">
 Application de facturation professionnelle construite comme un monolithe Symfony MVC.
 Gestion des comptes, entreprises, clients, devis, factures, avoirs, paiements,
 PDF historiques immuables, envoi de documents par e-mail, tableau de bord,
@@ -223,7 +223,7 @@ exports comptables, audit métier append-only, sauvegarde et restauration.
 Le projet intègre aussi la préparation aux flux de facturation électronique
 et la gestion de données structurées de facture.
 </td>
-<td>
+<td valign="top">
 <code>Symfony</code>
 <code>PHP 8.4</code>
 <code>Doctrine</code>
@@ -238,13 +238,13 @@ et la gestion de données structurées de facture.
 </tr>
 
 <tr>
-<td>🛡️ <b><a href="https://github.com/loic31000/CyberHub">CyberHub</a></b></td>
-<td>
+<td valign="top">🛡️ <b><a href="https://github.com/loic31000/CyberHub">CyberHub</a></b></td>
+<td valign="top">
 Application locale de veille et d'investigation regroupant IOC, CVE,
 CISA KEV, MITRE ATT&CK, BGP/AS, OSINT, playbooks de réponse à incident,
 investigations et corrélation de données.
 </td>
-<td>
+<td valign="top">
 <code>Go</code>
 <code>React</code>
 <code>TypeScript</code>
@@ -255,13 +255,13 @@ investigations et corrélation de données.
 </tr>
 
 <tr>
-<td>🌐 <b><a href="https://github.com/loic31000/bgp-hijack-orange-2026">BGP Hijack Investigation</a></b></td>
-<td>
+<td valign="top">🌐 <b><a href="https://github.com/loic31000/bgp-hijack-orange-2026">BGP Hijack Investigation</a></b></td>
+<td valign="top">
 Investigation indépendante et documentation technique d'un événement
 de routage BGP visant des ressources associées à Orange France.
 Analyse de routes, ASN, visibilité réseau et chronologie technique.
 </td>
-<td>
+<td valign="top">
 <code>BGP</code>
 <code>RPKI</code>
 <code>RIPEstat</code>
@@ -271,12 +271,12 @@ Analyse de routes, ASN, visibilité réseau et chronologie technique.
 </tr>
 
 <tr>
-<td>📡 <b><a href="https://github.com/loic31000/bgp-monitor-orange-hijack">BGP Monitor</a></b></td>
-<td>
+<td valign="top">📡 <b><a href="https://github.com/loic31000/bgp-monitor-orange-hijack">BGP Monitor</a></b></td>
+<td valign="top">
 Outil Python de monitoring passif via RIPEstat avec analyse d'origines ASN,
 historique, alertes, logs persistants et rapports HTML automatisés.
 </td>
-<td>
+<td valign="top">
 <code>Python</code>
 <code>RIPEstat API</code>
 <code>BGP</code>
@@ -286,13 +286,13 @@ historique, alertes, logs persistants et rapports HTML automatisés.
 </tr>
 
 <tr>
-<td>📚 <b><a href="https://github.com/loic31000/AniRecap">AniRecap</a></b></td>
-<td>
+<td valign="top">📚 <b><a href="https://github.com/loic31000/AniRecap">AniRecap</a></b></td>
+<td valign="top">
 Application Symfony de consultation et gestion privée de contenus anime/manga
 avec authentification, catalogue, saisons, épisodes, chapitres,
 personnages, favoris, uploads protégés et contrôle d'accès.
 </td>
-<td>
+<td valign="top">
 <code>Symfony</code>
 <code>PHP 8.4</code>
 <code>Doctrine</code>
@@ -304,12 +304,12 @@ personnages, favoris, uploads protégés et contrôle d'accès.
 </tr>
 
 <tr>
-<td>🐍 <b><a href="https://github.com/loic31000/FileRenamer">FileRenamer</a></b></td>
-<td>
+<td valign="top">🐍 <b><a href="https://github.com/loic31000/FileRenamer">FileRenamer</a></b></td>
+<td valign="top">
 Application Python permettant de renommer et organiser
 des fichiers multimédias en masse.
 </td>
-<td>
+<td valign="top">
 <code>Python</code>
 </td>
 </tr>
@@ -359,43 +359,78 @@ Projets :
 </div>
 
 <table>
-
+<thead>
 <tr>
-<td>🌐</td>
-<td><b>Network Security</b></td>
-<td>BGP · ASN · routing · RPKI · RIPEstat</td>
+<th align="left" width="30%">Domaine</th>
+<th align="left" width="70%">Technologies & Concepts</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td valign="top">🌐 <b>Network Security</b></td>
+<td valign="top">
+<code>BGP</code>
+<code>ASN</code>
+<code>Routing</code>
+<code>RPKI</code>
+<code>RIPEstat</code>
+</td>
 </tr>
 
 <tr>
-<td>🎯</td>
-<td><b>Threat Intelligence</b></td>
-<td>IOC · CVE · CISA KEV · EPSS · threat feeds</td>
+<td valign="top">🎯 <b>Threat Intelligence</b></td>
+<td valign="top">
+<code>IOC</code>
+<code>CVE</code>
+<code>CISA KEV</code>
+<code>EPSS</code>
+<code>Threat Feeds</code>
+</td>
 </tr>
 
 <tr>
-<td>🧠</td>
-<td><b>Knowledge Mapping</b></td>
-<td>MITRE ATT&CK · techniques · tactics · playbooks</td>
+<td valign="top">🧠 <b>Knowledge Mapping</b></td>
+<td valign="top">
+<code>MITRE ATT&CK</code>
+<code>Techniques</code>
+<code>Tactics</code>
+<code>Playbooks</code>
+</td>
 </tr>
 
 <tr>
-<td>🔍</td>
-<td><b>Investigation</b></td>
-<td>OSINT · CTI · timelines · correlation · technical research</td>
+<td valign="top">🔍 <b>Investigation</b></td>
+<td valign="top">
+<code>OSINT</code>
+<code>CTI</code>
+<code>Timelines</code>
+<code>Correlation</code>
+<code>Technical Research</code>
+</td>
 </tr>
 
 <tr>
-<td>⛓️</td>
-<td><b>On-chain Analysis</b></td>
-<td>Wallet activity · transaction tracing · DeFi flows · OSINT</td>
+<td valign="top">⛓️ <b>On-chain Analysis</b></td>
+<td valign="top">
+<code>Wallet Activity</code>
+<code>Transaction Tracing</code>
+<code>DeFi Flows</code>
+<code>OSINT</code>
+</td>
 </tr>
 
 <tr>
-<td>🔐</td>
-<td><b>Application Security</b></td>
-<td>Authentication · authorization · JWT · bcrypt · secure data handling</td>
+<td valign="top">🔐 <b>Application Security</b></td>
+<td valign="top">
+<code>Authentication</code>
+<code>Authorization</code>
+<code>JWT</code>
+<code>bcrypt</code>
+<code>Secure Data Handling</code>
+</td>
 </tr>
-
+</tbody>
 </table>
 
 ---
