@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="520"
+     height="110"
+     viewBox="0 0 520 110">
+
+  <rect
+      x="1"
+      y="1"
+      width="518"
+      height="108"
+      rx="8"
+      fill="#0D1117"
+      stroke="#30363D"
+      stroke-width="2" />
+
+  <text
+      x="28"
+      y="35"
+      fill="#8B949E"
+      font-family="Segoe UI, Ubuntu, Arial, sans-serif"
+      font-size="15">
+    DEFAULT-BRANCH COMMITS
+  </text>
+
+  <text
+      x="28"
+      y="81"
+      fill="#00FF41"
+      font-family="Segoe UI, Ubuntu, Arial, sans-serif"
+      font-size="38"
+      font-weight="700">
+    353
+  </text>
+
+  <text
+      x="492"
+      y="57"
+      text-anchor="end"
+      fill="#8B949E"
+      font-family="Segoe UI, Ubuntu, Arial, sans-serif"
+      font-size="12">
+    PUBLIC + PRIVATE
+  </text>
+
+  <text
+      x="492"
+      y="79"
+      text-anchor="end"
+      fill="#8B949E"
+      font-family="Segoe UI, Ubuntu, Arial, sans-serif"
+      font-size="11">
+    updated 2026-09-27
+  </text>
+
+</svg>
