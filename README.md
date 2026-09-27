@@ -214,6 +214,30 @@ projectiles, collisions et entités orientées objet.
 <tbody>
 
 <tr>
+<td>🧾 <b>FacturePro</b></td>
+<td>
+Application de facturation professionnelle construite comme un monolithe Symfony MVC.
+Gestion des comptes, entreprises, clients, devis, factures, avoirs, paiements,
+PDF historiques immuables, envoi de documents par e-mail, tableau de bord,
+exports comptables, audit métier append-only, sauvegarde et restauration.
+Le projet intègre aussi la préparation aux flux de facturation électronique
+et la gestion de données structurées de facture.
+</td>
+<td>
+<code>Symfony</code>
+<code>PHP 8.4</code>
+<code>Doctrine</code>
+<code>PostgreSQL 16</code>
+<code>Twig</code>
+<code>React</code>
+<code>Tailwind CSS</code>
+<code>Docker</code>
+<code>PHPUnit</code>
+<code>Playwright</code>
+</td>
+</tr>
+
+<tr>
 <td>🛡️ <b><a href="https://github.com/loic31000/CyberHub">CyberHub</a></b></td>
 <td>
 Application locale de veille et d'investigation regroupant IOC, CVE,
