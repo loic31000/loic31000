@@ -72,56 +72,66 @@ mkdir -p assets
 
 cat > assets/commit-count.svg <<SVG
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="520"
-     height="110"
-     viewBox="0 0 520 110">
+     width="340"
+     height="200"
+     viewBox="0 0 340 200">
+
+  <style>
+    * {
+      font-family: 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
+    }
+  </style>
 
   <rect
       x="1"
       y="1"
-      width="518"
-      height="108"
-      rx="8"
-      fill="#0D1117"
-      stroke="#30363D"
-      stroke-width="2" />
+      width="338"
+      height="198"
+      rx="5"
+      ry="5"
+      fill="#0d1117"
+      stroke="#2e343b"
+      stroke-width="1" />
 
   <text
-      x="28"
-      y="35"
-      fill="#8B949E"
-      font-family="Segoe UI, Ubuntu, Arial, sans-serif"
-      font-size="15">
-    DEFAULT-BRANCH COMMITS
+      x="30"
+      y="40"
+      font-size="22"
+      fill="#0366d6">
+    Total Commits
   </text>
 
   <text
-      x="28"
-      y="81"
-      fill="#00FF41"
-      font-family="Segoe UI, Ubuntu, Arial, sans-serif"
-      font-size="38"
-      font-weight="700">
+      x="30"
+      y="112"
+      font-size="46"
+      font-weight="700"
+      fill="#40c463">
     $TOTAL
   </text>
 
   <text
-      x="492"
-      y="57"
-      text-anchor="end"
-      fill="#8B949E"
-      font-family="Segoe UI, Ubuntu, Arial, sans-serif"
-      font-size="12">
-    PUBLIC + PRIVATE
+      x="30"
+      y="145"
+      font-size="14"
+      fill="#77909c">
+    Public + Private
   </text>
 
   <text
-      x="492"
-      y="79"
+      x="30"
+      y="170"
+      font-size="12"
+      fill="#77909c">
+    Default branches · unique commits
+  </text>
+
+  <text
+      x="310"
+      y="185"
       text-anchor="end"
-      fill="#8B949E"
-      font-family="Segoe UI, Ubuntu, Arial, sans-serif"
-      font-size="11">
+      font-size="10"
+      fill="#77909c">
     updated $UPDATED
   </text>
 
