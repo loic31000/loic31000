@@ -61,7 +61,7 @@ Je développe également des outils autour de la **cybersécurité**, du **rése
 <tbody>
 
 <tr>
-<td valign="top">🎬 <b>MarsAI</b></td>
+<td valign="top">🎬 <b><a href="https://github.com/loic31000/mars-ia-atelier2-toulouse">MarsAI</a></b></td>
 <td valign="top"><b>Projet de groupe - La Plateforme</b></td>
 <td valign="top">
 Plateforme autour d'un festival de courts métrages générés par intelligence artificielle.
