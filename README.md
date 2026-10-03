@@ -214,6 +214,43 @@ projectiles, collisions et entités orientées objet.
 <tbody>
 
 <tr>
+<td valign="top">🤖 <b><a href="https://github.com/loic31000/codex-engineering-playbook-fr">Codex Engineering Playbook</a></b></td>
+<td valign="top">
+Bibliothèque évolutive de prompts, workflows, checklists et références d'ingénierie logicielle
+pour travailler avec Codex sur l'ensemble du cycle de développement.
+Pensée comme un vault Obsidian versionné avec Git, avec versions française et anglaise,
+cycle de maturité <code>draft → testing → stable → deprecated</code>,
+conventions, journal de tests et cadre de validation progressive sur des cas réels.
+</td>
+<td valign="top">
+<code>Codex</code>
+<code>Prompt Engineering</code>
+<code>Markdown</code>
+<code>Obsidian</code>
+<code>Git / GitHub</code>
+<code>Software Engineering</code>
+</td>
+</tr>
+
+<tr>
+<td valign="top">🧪 <b><a href="https://github.com/loic31000/codex-playbook-tests">Codex Playbook Tests</a></b></td>
+<td valign="top">
+Projet de test reproductible associé au Codex Engineering Playbook.
+Chaque scénario est exécuté en baseline puis avec le prompt ciblé afin de comparer les résultats
+dans un contexte identique. La suite automatise l'exécution des cas, la reprise après interruption,
+la génération de diffs et la synthèse des résultats.
+</td>
+<td valign="top">
+<code>PowerShell</code>
+<code>JSON</code>
+<code>Codex</code>
+<code>Prompt Testing</code>
+<code>Baseline / A-B</code>
+<code>Diff</code>
+</td>
+</tr>
+
+<tr>
 <td valign="top">🧾 <b>FacturePro</b></td>
 <td valign="top">
 Application de facturation professionnelle construite comme un monolithe Symfony MVC.
