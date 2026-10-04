@@ -133,7 +133,7 @@ cat > assets/repository-stats.svg <<SVG
   <text x="30" y="38" font-size="22" fill="#0366d6">Repository Overview</text>
   <text x="30" y="72" font-size="13" fill="#77909c">Tracked repos</text>
   <text x="155" y="72" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$REPO_TOTAL</text>
-  <text x="185" y="72" font-size="13" fill="#77909c">Active · 30d</text>
+  <text x="185" y="72" font-size="13" fill="#77909c">Pushed · 30d</text>
   <text x="310" y="72" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$ACTIVE_REPOS_30D</text>
   <text x="30" y="105" font-size="13" fill="#77909c">Public</text>
   <text x="155" y="105" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$PUBLIC_REPOS</text>
