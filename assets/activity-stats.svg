@@ -2,12 +2,17 @@
   <style>* { font-family: 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; }</style>
   <rect x="1" y="1" width="338" height="198" rx="5" ry="5" fill="#0d1117" stroke="#2e343b" stroke-width="1"/>
   <text x="30" y="38" font-size="22" fill="#0366d6">Recent Activity</text>
-  <text x="30" y="76" font-size="14" fill="#77909c">Commits · last 30 days</text>
-  <text x="310" y="76" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">228</text>
-  <text x="30" y="106" font-size="14" fill="#77909c">Repos with commits · 30d</text>
-  <text x="310" y="106" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">4</text>
-  <text x="30" y="136" font-size="14" fill="#77909c">Repositories scanned</text>
-  <text x="310" y="136" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">25 / 25</text>
-  <text x="30" y="166" font-size="12" fill="#77909c">Default branches · GitHub-attributed commits</text>
+
+  <text x="30" y="78" font-size="13" fill="#77909c">Commits · 30d</text>
+  <text x="155" y="78" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">228</text>
+  <text x="185" y="78" font-size="13" fill="#77909c">Repos · 30d</text>
+  <text x="310" y="78" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">4</text>
+
+  <text x="30" y="122" font-size="13" fill="#77909c">PRs authored</text>
+  <text x="155" y="122" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">99</text>
+  <text x="185" y="122" font-size="13" fill="#77909c">Issues authored</text>
+  <text x="310" y="122" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">218</text>
+
+  <text x="30" y="166" font-size="12" fill="#77909c">GitHub-attributed activity · visible to token</text>
   <text x="310" y="185" text-anchor="end" font-size="10" fill="#77909c">updated 2026-10-04</text>
 </svg>
