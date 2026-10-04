@@ -233,7 +233,7 @@ conventions, journal de tests et cadre de validation progressive sur des cas ré
 </tr>
 
 <tr>
-<td valign="top">🧪 <b><a href="https://github.com/loic31000/codex-playbook-tests">Codex Playbook Tests</a></b></td>
+<td valign="top">🧪 <b><a href="https://github.com/loic31000/codex-playbook-tests">Codex Playbook Lab</a></b></td>
 <td valign="top">
 Projet de test reproductible associé au Codex Engineering Playbook.
 Chaque scénario est exécuté en baseline puis avec le prompt ciblé afin de comparer les résultats
