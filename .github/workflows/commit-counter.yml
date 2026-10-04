@@ -1,10 +1,18 @@
-name: Custom Commit Counter
+name: Custom Profile Stats
 
 on:
   schedule:
     - cron: "30 1 * * *"
 
   workflow_dispatch:
+
+  push:
+    branches:
+      - main
+      - feat/profile-stats-v2
+    paths:
+      - ".github/scripts/update-commit-count.sh"
+      - ".github/workflows/commit-counter.yml"
 
 permissions:
   contents: write
@@ -17,25 +25,31 @@ jobs:
       - name: Checkout profile repository
         uses: actions/checkout@v4
 
-      - name: Generate custom commit counter
+      - name: Validate stats generator
+        run: bash -n .github/scripts/update-commit-count.sh
+
+      - name: Generate custom profile stats
         env:
           GH_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
           GITHUB_USER: loic31000
         run: bash .github/scripts/update-commit-count.sh
 
-      - name: Commit updated counter
+      - name: Commit updated stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/commit-count.svg
+          git add \
+            assets/commit-count.svg \
+            assets/activity-stats.svg \
+            assets/repository-stats.svg
 
           if git diff --cached --quiet; then
-            echo "Commit counter has not changed."
+            echo "Profile stats have not changed."
             exit 0
           fi
 
-          git commit -m "chore: update custom commit counter"
+          git commit -m "chore: update custom profile stats"
 
-          git pull --rebase origin main
-          git push origin main
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
