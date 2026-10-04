@@ -14,6 +14,7 @@ REPO_TOTAL=0
 PUBLIC_REPOS=0
 PRIVATE_REPOS=0
 ACTIVE_REPOS_30D=0
+ACTIVE_AUTHOR_REPOS_30D=0
 STARS_TOTAL=0
 FORKS_TOTAL=0
 
@@ -54,6 +55,8 @@ for row in "${REPOS[@]}"; do
     ACTIVE_REPOS_30D=$((ACTIVE_REPOS_30D + 1))
   fi
 
+  repo_has_recent=0
+
   if ! COMMIT_ROWS="$(
     gh api \
       --paginate \
@@ -80,8 +83,13 @@ for row in "${REPOS[@]}"; do
 
     if [[ -n "$authored_at" ]] && { [[ "$authored_at" == "$CUTOFF_30D" ]] || [[ "$authored_at" > "$CUTOFF_30D" ]]; }; then
       RECENT_SHAS["$sha"]=1
+      repo_has_recent=1
     fi
   done <<< "$COMMIT_ROWS"
+
+  if (( repo_has_recent == 1 )); then
+    ACTIVE_AUTHOR_REPOS_30D=$((ACTIVE_AUTHOR_REPOS_30D + 1))
+  fi
 done
 
 TOTAL_COMMITS="${#UNIQUE_SHAS[@]}"
@@ -106,11 +114,11 @@ cat > assets/activity-stats.svg <<SVG
 <svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200">
   <style>* { font-family: 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; }</style>
   <rect x="1" y="1" width="338" height="198" rx="5" ry="5" fill="#0d1117" stroke="#2e343b" stroke-width="1"/>
-  <text x="30" y="38" font-size="22" fill="#0366d6">Development Activity</text>
-  <text x="30" y="76" font-size="14" fill="#77909c">Total commits</text>
-  <text x="310" y="76" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">$TOTAL_COMMITS</text>
-  <text x="30" y="106" font-size="14" fill="#77909c">Commits · last 30 days</text>
-  <text x="310" y="106" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">$COMMITS_30D</text>
+  <text x="30" y="38" font-size="22" fill="#0366d6">Recent Activity</text>
+  <text x="30" y="76" font-size="14" fill="#77909c">Commits · last 30 days</text>
+  <text x="310" y="76" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">$COMMITS_30D</text>
+  <text x="30" y="106" font-size="14" fill="#77909c">Repos with commits · 30d</text>
+  <text x="310" y="106" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">$ACTIVE_AUTHOR_REPOS_30D</text>
   <text x="30" y="136" font-size="14" fill="#77909c">Repositories scanned</text>
   <text x="310" y="136" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">$REPO_COUNT / $REPO_TOTAL</text>
   <text x="30" y="166" font-size="12" fill="#77909c">Default branches · GitHub-attributed commits</text>
@@ -123,7 +131,7 @@ cat > assets/repository-stats.svg <<SVG
   <style>* { font-family: 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; }</style>
   <rect x="1" y="1" width="338" height="198" rx="5" ry="5" fill="#0d1117" stroke="#2e343b" stroke-width="1"/>
   <text x="30" y="38" font-size="22" fill="#0366d6">Repository Overview</text>
-  <text x="30" y="72" font-size="13" fill="#77909c">Owned repos</text>
+  <text x="30" y="72" font-size="13" fill="#77909c">Tracked repos</text>
   <text x="155" y="72" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$REPO_TOTAL</text>
   <text x="185" y="72" font-size="13" fill="#77909c">Active · 30d</text>
   <text x="310" y="72" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$ACTIVE_REPOS_30D</text>
@@ -135,7 +143,7 @@ cat > assets/repository-stats.svg <<SVG
   <text x="155" y="138" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$STARS_TOTAL</text>
   <text x="185" y="138" font-size="13" fill="#77909c">Forks</text>
   <text x="310" y="138" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$FORKS_TOTAL</text>
-  <text x="30" y="166" font-size="12" fill="#77909c">Owned non-fork repositories</text>
+  <text x="30" y="166" font-size="12" fill="#77909c">Non-forks visible to the stats token</text>
   <text x="310" y="185" text-anchor="end" font-size="10" fill="#77909c">updated $UPDATED</text>
 </svg>
 SVG
@@ -144,7 +152,8 @@ echo "Profile stats generated successfully."
 echo "Total unique commits: $TOTAL_COMMITS"
 echo "Commits in last 30 days: $COMMITS_30D"
 echo "Repositories: $REPO_TOTAL ($PUBLIC_REPOS public / $PRIVATE_REPOS private)"
-echo "Active repositories in last 30 days: $ACTIVE_REPOS_30D"
+echo "Repositories pushed in last 30 days: $ACTIVE_REPOS_30D"
+echo "Repositories with attributed commits in last 30 days: $ACTIVE_AUTHOR_REPOS_30D"
 echo "Stars: $STARS_TOTAL"
 echo "Forks: $FORKS_TOTAL"
 echo "Repositories processed for commit stats: $REPO_COUNT"
