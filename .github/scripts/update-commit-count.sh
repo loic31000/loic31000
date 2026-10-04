@@ -17,6 +17,10 @@ ACTIVE_REPOS_30D=0
 ACTIVE_AUTHOR_REPOS_30D=0
 STARS_TOTAL=0
 FORKS_TOTAL=0
+BRANCHES_TOTAL=0
+BRANCH_SCAN_FAILED=0
+PRS_AUTHORED="—"
+ISSUES_AUTHORED="—"
 
 mapfile -t REPOS < <(
   gh repo list "$GITHUB_USER" \
@@ -53,6 +57,22 @@ for row in "${REPOS[@]}"; do
 
   if [[ -n "$pushed_at" ]] && { [[ "$pushed_at" == "$CUTOFF_30D" ]] || [[ "$pushed_at" > "$CUTOFF_30D" ]]; }; then
     ACTIVE_REPOS_30D=$((ACTIVE_REPOS_30D + 1))
+  fi
+
+  if BRANCH_NAMES="$(
+    gh api \
+      --paginate \
+      "repos/$repo/branches?per_page=100" \
+      --jq '.[].name' \
+      2>/dev/null
+  )"; then
+    while IFS= read -r branch_name; do
+      if [[ -n "$branch_name" ]]; then
+        BRANCHES_TOTAL=$((BRANCHES_TOTAL + 1))
+      fi
+    done <<< "$BRANCH_NAMES"
+  else
+    BRANCH_SCAN_FAILED=$((BRANCH_SCAN_FAILED + 1))
   fi
 
   repo_has_recent=0
@@ -95,6 +115,30 @@ done
 TOTAL_COMMITS="${#UNIQUE_SHAS[@]}"
 COMMITS_30D="${#RECENT_SHAS[@]}"
 
+if ! PRS_AUTHORED="$(
+  gh api \
+    --method GET \
+    search/issues \
+    -f q="author:$GITHUB_USER is:pr" \
+    -f per_page=1 \
+    --jq '.total_count' \
+    2>/dev/null
+)"; then
+  PRS_AUTHORED="—"
+fi
+
+if ! ISSUES_AUTHORED="$(
+  gh api \
+    --method GET \
+    search/issues \
+    -f q="author:$GITHUB_USER is:issue" \
+    -f per_page=1 \
+    --jq '.total_count' \
+    2>/dev/null
+)"; then
+  ISSUES_AUTHORED="—"
+fi
+
 cd "$GITHUB_WORKSPACE"
 mkdir -p assets
 
@@ -115,13 +159,18 @@ cat > assets/activity-stats.svg <<SVG
   <style>* { font-family: 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; }</style>
   <rect x="1" y="1" width="338" height="198" rx="5" ry="5" fill="#0d1117" stroke="#2e343b" stroke-width="1"/>
   <text x="30" y="38" font-size="22" fill="#0366d6">Recent Activity</text>
-  <text x="30" y="76" font-size="14" fill="#77909c">Commits · last 30 days</text>
-  <text x="310" y="76" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">$COMMITS_30D</text>
-  <text x="30" y="106" font-size="14" fill="#77909c">Repos with commits · 30d</text>
-  <text x="310" y="106" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">$ACTIVE_AUTHOR_REPOS_30D</text>
-  <text x="30" y="136" font-size="14" fill="#77909c">Repositories scanned</text>
-  <text x="310" y="136" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">$REPO_COUNT / $REPO_TOTAL</text>
-  <text x="30" y="166" font-size="12" fill="#77909c">Default branches · GitHub-attributed commits</text>
+
+  <text x="30" y="78" font-size="13" fill="#77909c">Commits · 30d</text>
+  <text x="155" y="78" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$COMMITS_30D</text>
+  <text x="185" y="78" font-size="13" fill="#77909c">Repos · 30d</text>
+  <text x="310" y="78" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$ACTIVE_AUTHOR_REPOS_30D</text>
+
+  <text x="30" y="122" font-size="13" fill="#77909c">PRs authored</text>
+  <text x="155" y="122" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$PRS_AUTHORED</text>
+  <text x="185" y="122" font-size="13" fill="#77909c">Issues authored</text>
+  <text x="310" y="122" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$ISSUES_AUTHORED</text>
+
+  <text x="30" y="166" font-size="12" fill="#77909c">GitHub-attributed activity · visible to token</text>
   <text x="310" y="185" text-anchor="end" font-size="10" fill="#77909c">updated $UPDATED</text>
 </svg>
 SVG
@@ -133,8 +182,8 @@ cat > assets/repository-stats.svg <<SVG
   <text x="30" y="38" font-size="22" fill="#0366d6">Repository Overview</text>
   <text x="30" y="72" font-size="13" fill="#77909c">Tracked repos</text>
   <text x="155" y="72" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$REPO_TOTAL</text>
-  <text x="185" y="72" font-size="13" fill="#77909c">Pushed · 30d</text>
-  <text x="310" y="72" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$ACTIVE_REPOS_30D</text>
+  <text x="185" y="72" font-size="13" fill="#77909c">Branches</text>
+  <text x="310" y="72" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$BRANCHES_TOTAL</text>
   <text x="30" y="105" font-size="13" fill="#77909c">Public</text>
   <text x="155" y="105" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">$PUBLIC_REPOS</text>
   <text x="185" y="105" font-size="13" fill="#77909c">Private</text>
@@ -156,5 +205,9 @@ echo "Repositories pushed in last 30 days: $ACTIVE_REPOS_30D"
 echo "Repositories with attributed commits in last 30 days: $ACTIVE_AUTHOR_REPOS_30D"
 echo "Stars: $STARS_TOTAL"
 echo "Forks: $FORKS_TOTAL"
+echo "Branches across tracked repositories: $BRANCHES_TOTAL"
+echo "Repositories skipped during branch scan: $BRANCH_SCAN_FAILED"
+echo "PRs authored: $PRS_AUTHORED"
+echo "Issues authored: $ISSUES_AUTHORED"
 echo "Repositories processed for commit stats: $REPO_COUNT"
 echo "Repositories skipped after API error: $FAILED_COUNT"
