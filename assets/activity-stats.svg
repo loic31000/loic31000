@@ -3,7 +3,7 @@
   <rect x="1" y="1" width="338" height="198" rx="5" ry="5" fill="#0d1117" stroke="#2e343b" stroke-width="1"/>
   <text x="30" y="38" font-size="22" fill="#0366d6">Recent Activity</text>
   <text x="30" y="76" font-size="14" fill="#77909c">Commits · last 30 days</text>
-  <text x="310" y="76" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">227</text>
+  <text x="310" y="76" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">228</text>
   <text x="30" y="106" font-size="14" fill="#77909c">Repos with commits · 30d</text>
   <text x="310" y="106" text-anchor="end" font-size="18" font-weight="700" fill="#40c463">4</text>
   <text x="30" y="136" font-size="14" fill="#77909c">Repositories scanned</text>
