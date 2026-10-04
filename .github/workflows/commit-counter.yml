@@ -7,9 +7,6 @@ on:
   workflow_dispatch:
 
   push:
-    branches:
-      - main
-      - feat/profile-stats-v2
     paths:
       - ".github/scripts/update-commit-count.sh"
       - ".github/workflows/commit-counter.yml"
