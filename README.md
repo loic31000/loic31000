@@ -36,7 +36,7 @@
 ┌───────────────────────────────────────────────────────────────┐
 │ Name     : Loïc                                               │
 │ Role     : Full-Stack Web & Mobile Developer                  │
-│ Diploma  : DWWM - titre professionnel niveau 5 (Bac+2)       │
+│ Diploma  : DWWM - titre professionnel niveau 5 (Bac+2)        │
 │ Focus    : Web · APIs · Security · Data · Automation          │
 │ Stack    : PHP · Symfony · React · Node · Go · Python         │
 │ Mission  : Build useful systems and understand how they fail  │
