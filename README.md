@@ -13,6 +13,15 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2500&pause=900&color=00FF41&center=true&vCenter=true&width=900&lines=Full-Stack+Developer+%7C+Web+%26+Mobile;Symfony+%7C+React+%7C+Go+%7C+Python+%7C+TypeScript;Cybersecurity+%7C+BGP+%7C+Threat+Intelligence;Build.+Investigate.+Understand.+Secure.)](https://git.io/typing-svg)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-0D1117?style=for-the-badge&logo=php&logoColor=00FF41" alt="PHP">
+  <img src="https://img.shields.io/badge/Symfony-0D1117?style=for-the-badge&logo=symfony&logoColor=00FF41" alt="Symfony">
+  <img src="https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=00FF41" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=00FF41" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=00FF41" alt="Docker">
+  <img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00FF41" alt="PostgreSQL">
+</p>
+
 </div>
 
 ---
@@ -27,7 +36,7 @@
 ┌───────────────────────────────────────────────────────────────┐
 │ Name     : Loïc                                               │
 │ Role     : Full-Stack Web & Mobile Developer                  │
-│ Training : La Plateforme                                      │
+│ Diploma  : DWWM - titre professionnel niveau 5 (Bac+2)       │
 │ Focus    : Web · APIs · Security · Data · Automation          │
 │ Stack    : PHP · Symfony · React · Node · Go · Python         │
 │ Mission  : Build useful systems and understand how they fail  │
@@ -36,7 +45,7 @@
 
 </div>
 
-Développeur Web & Mobile Full-Stack en formation à **La Plateforme**, je conçois des applications complètes allant du frontend aux APIs, à la logique métier et aux bases de données.
+Développeur Web & Mobile Full-Stack, diplômé du titre professionnel **Développeur Web et Web Mobile (DWWM), niveau 5 (Bac+2)**, je conçois des applications complètes allant du frontend aux APIs, à la logique métier et aux bases de données.
 
 Je développe également des outils autour de la **cybersécurité**, du **réseau**, de l'**OSINT**, du **Threat Intelligence**, de l'**automatisation** et de l'analyse de données.
 
@@ -233,7 +242,7 @@ conventions, journal de tests et cadre de validation progressive sur des cas ré
 </tr>
 
 <tr>
-<td valign="top">🧪 <b><a href="https://github.com/loic31000/codex-playbook-tests">Codex Playbook Lab</a></b></td>
+<td valign="top">🧪 <b><a href="https://github.com/loic31000/codex-playbook-lab">Codex Playbook Lab</a></b></td>
 <td valign="top">
 Projet de test reproductible associé au Codex Engineering Playbook.
 Chaque scénario est exécuté en baseline puis avec le prompt ciblé afin de comparer les résultats
@@ -363,7 +372,7 @@ des fichiers multimédias en masse.
 ```text
 2025 ─ 2026
 La Plateforme
-Développeur Web & Applications - Bootcamp intensif
+Titre professionnel Développeur Web et Web Mobile (DWWM) - obtenu
 
 → Applications Full-Stack
 → JavaScript / TypeScript / React / Node.js
