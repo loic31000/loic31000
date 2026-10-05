@@ -209,7 +209,7 @@ projectiles, collisions et entités orientées objet.
 
 ---
 
-## 🔐 Projets personnels & cybersécurité
+## 🔐 Projets personnels, open source & cybersécurité
 
 <table>
 <thead>
@@ -221,6 +221,26 @@ projectiles, collisions et entités orientées objet.
 </thead>
 
 <tbody>
+
+<tr>
+<td valign="top">📊 <b><a href="https://github.com/loic31000/github-traffic-observer">GitHub Traffic Observer</a></b></td>
+<td valign="top">
+GitHub Action open source pour archiver et analyser les métriques agrégées GitHub Traffic
+au-delà de la fenêtre glissante native. Le collecteur conserve l'historique, suit les dépôts
+par identifiant stable, enregistre les corrections tardives, contrôle la fraîcheur des endpoints
+et détecte plusieurs signaux d'anomalie. L'architecture sépare le moteur public des données réelles,
+qui restent dans un dépôt privé contrôlé par l'utilisateur.
+</td>
+<td valign="top">
+<code>Python</code>
+<code>GitHub Actions</code>
+<code>GitHub REST API</code>
+<code>CSV / JSON</code>
+<code>Observability</code>
+<code>Privacy by Default</code>
+<code>Open Source</code>
+</td>
+</tr>
 
 <tr>
 <td valign="top">🤖 <b><a href="https://github.com/loic31000/codex-engineering-playbook-fr">Codex Engineering Playbook</a></b></td>
