@@ -3,11 +3,11 @@
   <rect x="1" y="1" width="338" height="198" rx="5" ry="5" fill="#0d1117" stroke="#2e343b" stroke-width="1"/>
   <text x="30" y="38" font-size="22" fill="#0366d6">Repository Overview</text>
   <text x="30" y="72" font-size="13" fill="#77909c">Tracked repos</text>
-  <text x="155" y="72" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">25</text>
+  <text x="155" y="72" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">24</text>
   <text x="185" y="72" font-size="13" fill="#77909c">Branches</text>
-  <text x="310" y="72" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">112</text>
+  <text x="310" y="72" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">124</text>
   <text x="30" y="105" font-size="13" fill="#77909c">Public</text>
-  <text x="155" y="105" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">22</text>
+  <text x="155" y="105" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">21</text>
   <text x="185" y="105" font-size="13" fill="#77909c">Private</text>
   <text x="310" y="105" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">3</text>
   <text x="30" y="138" font-size="13" fill="#77909c">Stars</text>
@@ -15,5 +15,5 @@
   <text x="185" y="138" font-size="13" fill="#77909c">Forks</text>
   <text x="310" y="138" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">0</text>
   <text x="30" y="166" font-size="12" fill="#77909c">Non-forks visible to the stats token</text>
-  <text x="310" y="185" text-anchor="end" font-size="10" fill="#77909c">updated 2026-10-04</text>
+  <text x="310" y="185" text-anchor="end" font-size="10" fill="#77909c">updated 2026-10-05</text>
 </svg>
