@@ -15,5 +15,5 @@
   <text x="185" y="138" font-size="13" fill="#77909c">Forks</text>
   <text x="310" y="138" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">0</text>
   <text x="30" y="166" font-size="12" fill="#77909c">Non-forks visible to the stats token</text>
-  <text x="310" y="185" text-anchor="end" font-size="10" fill="#77909c">updated 2026-10-09</text>
+  <text x="310" y="185" text-anchor="end" font-size="10" fill="#77909c">updated 2026-10-10</text>
 </svg>
