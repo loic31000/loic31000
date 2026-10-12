@@ -64,7 +64,7 @@ Je développe également des outils autour de la **cybersécurité**, du **rése
 
 <a id="selection"></a>
 <div align="center">
-<h3><code>> ls -la ./featured-projects</code></h3>
+<h3><code>> ls -la ./selected-projects</code></h3>
 </div>
 
 **Quelques projets à explorer en priorité.** Même ADN full-stack / sécurité / open source, sans transformer la page d'accueil en inventaire technique.
@@ -101,9 +101,9 @@ Investigation indépendante d'un incident de routage, avec analyse ASN, chronolo
 Application full-stack de gestion de récapitulatifs et contenus anime / manga.
 </td>
 <td valign="top">
-<b>🧾 <a href="https://github.com/loic31000/phase3-symfony-facturation">SaaS Facturation</a></b><br/>
-<code>Symfony</code> <code>PostgreSQL</code> <code>Docker</code><br/><br/>
-Application de gestion et facturation, de l'authentification à la modélisation des données.
+<b>🐍 <a href="https://github.com/loic31000/FileRenamer">FileRenamer</a></b><br/>
+<code>Python</code> <code>Desktop UI</code> <code>Automatisation</code><br/><br/>
+Outil de renommage en lot avec aperçu avant/après, conventions de nommage et prise en charge des films et mangas.
 </td>
 </tr>
 
@@ -121,25 +121,9 @@ Tous les dépôts publics (applications, projets de formation, expérimentations
   <a href="https://github.com/loic31000?tab=repositories">→ Explorer les dépôts triés par activité sur GitHub</a>
 </p>
 
-<sub>L'index est généré à partir des dépôts publics par un workflow dédié. Les projets privés sont présentés séparément, sans lien vers leurs dépôts.</sub>
+<sub>Le catalogue public est actualisé séparément. Les projets personnels privés sont décrits plus bas, après les archives des projets publics et de formation.</sub>
 
-<details>
-<summary><b><code>> cat ./personal/private.md</code> · Projets personnels privés (présentation uniquement)</b></summary>
 
-<br/>
-
-**🔐 AppSec Audit** · <code>Python</code> <code>AppSec</code> <code>GitHub Actions</code> <code>🔒 privé</code>  
-Orchestrateur de contrôles de sécurité multi-stack : SAST, audit des dépendances, secrets, politiques GitHub Actions et rapports SARIF. Projet évolutif, sans accès public au code.
-
-**🎞️ MediaStation** · <code>React</code> <code>Node.js</code> <code>SQLite</code> <code>🔒 privé</code>  
-Médiathèque auto-hébergée avec catalogue, intégration de métadonnées, lecteur vidéo, collections et gestion des fichiers.
-
-**📡 Polymarket Discord Tracker** · <code>Python</code> <code>Discord</code> <code>APIs</code> <code>🔒 privé</code>  
-Suivi de données publiques de wallets : collecte asynchrone, alertes Discord et analyse heuristique d'activité. Pas un système de détection certaine de fraude.
-
-<sub>Autres travaux privés de formation ou personnels : MarsAI, Médiathèque et FacturePro, documentés dans les archives ci-dessous. Les autres dépôts privés restent volontairement non présentés.</sub>
-
-</details>
 
 <details>
 <summary><b><code>> cat ./projects/la-plateforme.md</code> · Projets de formation (détails)</b></summary>
@@ -473,6 +457,28 @@ des fichiers multimédias en masse.
 
 </tbody>
 </table>
+</details>
+
+<div align="center">
+<h3><code>> ls -la ./personal</code></h3>
+</div>
+
+<details>
+<summary><b><code>> cat ./personal/private.md</code> · Projets personnels privés (présentation uniquement)</b></summary>
+
+<br/>
+
+**🔐 AppSec Audit** · <code>Python</code> <code>AppSec</code> <code>GitHub Actions</code> <code>🔒 privé</code>  
+Orchestrateur de contrôles de sécurité multi-stack : SAST, audit des dépendances, secrets, politiques GitHub Actions et rapports SARIF. Projet évolutif, sans accès public au code.
+
+**🎞️ MediaStation** · <code>React</code> <code>Node.js</code> <code>SQLite</code> <code>🔒 privé</code>  
+Médiathèque auto-hébergée avec catalogue, intégration de métadonnées, lecteur vidéo, collections et gestion des fichiers.
+
+**📡 Polymarket Discord Tracker** · <code>Python</code> <code>Discord</code> <code>APIs</code> <code>🔒 privé</code>  
+Suivi de données publiques de wallets : collecte asynchrone, alertes Discord et analyse heuristique d'activité. Pas un système de détection certaine de fraude.
+
+<sub>Autres travaux privés de formation ou personnels : MarsAI, Médiathèque et FacturePro, documentés dans les archives ci-dessous. Les autres dépôts privés restent volontairement non présentés.</sub>
+
 </details>
 
 <hr>
