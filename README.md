@@ -155,7 +155,7 @@ Projet Full-Stack réalisé en équipe avec intégration frontend/backend et log
 </tr>
 
 <tr>
-<td valign="top">📚 <b>Médiathèque</b></td>
+<td valign="top">📚 <b>Médiathèque</b> <code>🔒 privé</code></td>
 <td valign="top"><b>Projet de groupe - La Plateforme</b></td>
 <td valign="top">
 Application de gestion de médiathèque avec architecture métier,
@@ -352,7 +352,7 @@ la génération de diffs et la synthèse des résultats.
 </tr>
 
 <tr>
-<td valign="top">🧾 <b>FacturePro</b></td>
+<td valign="top">🧾 <b>FacturePro</b> <code>🔒 privé</code></td>
 <td valign="top">
 Application de facturation professionnelle construite comme un monolithe Symfony MVC.
 Gestion des comptes, entreprises, clients, devis, factures, avoirs, paiements,
