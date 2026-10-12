@@ -89,9 +89,9 @@ Hub de veille et d'investigation : IOC, CVE, OSINT, MITRE ATT&CK, BGP et playboo
 Historisation et analyse des métriques de trafic GitHub, avec séparation des données privées.
 </td>
 <td valign="top">
-<b>🔐 AppSec Audit</b> <code>🔒 privé</code><br/>
-<code>Python</code> <code>AppSec</code> <code>GitHub Actions</code><br/><br/>
-Orchestrateur d'audits multi-stack : SAST, dépendances, secrets, rapports SARIF et contrôles de PR. DAST local optionnel.
+<b>🌐 <a href="https://github.com/loic31000/bgp-hijack-orange-2026">BGP Hijack Investigation</a></b><br/>
+<code>BGP</code> <code>RPKI</code> <code>OSINT</code><br/><br/>
+Investigation indépendante d'un incident de routage, avec analyse ASN, chronologie et rapport technique interactif.
 </td>
 </tr>
 <tr>
@@ -106,18 +106,7 @@ Application full-stack de gestion de récapitulatifs et contenus anime / manga.
 Application de gestion et facturation, de l'authentification à la modélisation des données.
 </td>
 </tr>
-<tr>
-<td valign="top">
-<b>🎞️ MediaStation</b> <code>🔒 privé</code><br/>
-<code>React</code> <code>Node.js</code> <code>SQLite</code><br/><br/>
-Médiathèque personnelle auto-hébergée : catalogue, métadonnées via APIs, lecteur vidéo et collections. Interface pensée pour naviguer facilement entre films, séries et animés.
-</td>
-<td valign="top">
-<b>📡 Polymarket Discord Tracker</b> <code>🔒 privé</code><br/>
-<code>Python</code> <code>Discord</code> <code>APIs</code><br/><br/>
-Bot de suivi d'activité publique de wallets avec collecte asynchrone, alertes Discord et analyses heuristiques des comportements.
-</td>
-</tr>
+
 </table>
 
 <a id="catalogue"></a>
@@ -132,7 +121,25 @@ Tous les dépôts publics (applications, projets de formation, expérimentations
   <a href="https://github.com/loic31000?tab=repositories">→ Explorer les dépôts triés par activité sur GitHub</a>
 </p>
 
-<sub>L'index est généré à partir des dépôts publics par un workflow dédié. Les projets marqués 🔒 privé sont des réalisations présentées à titre descriptif : leur code source n'est pas public.</sub>
+<sub>L'index est généré à partir des dépôts publics par un workflow dédié. Les projets privés sont présentés séparément, sans lien vers leurs dépôts.</sub>
+
+<details>
+<summary><b><code>> cat ./personal/private.md</code> · Projets personnels privés (présentation uniquement)</b></summary>
+
+<br/>
+
+**🔐 AppSec Audit** · <code>Python</code> <code>AppSec</code> <code>GitHub Actions</code> <code>🔒 privé</code>  
+Orchestrateur de contrôles de sécurité multi-stack : SAST, audit des dépendances, secrets, politiques GitHub Actions et rapports SARIF. Projet évolutif, sans accès public au code.
+
+**🎞️ MediaStation** · <code>React</code> <code>Node.js</code> <code>SQLite</code> <code>🔒 privé</code>  
+Médiathèque auto-hébergée avec catalogue, intégration de métadonnées, lecteur vidéo, collections et gestion des fichiers.
+
+**📡 Polymarket Discord Tracker** · <code>Python</code> <code>Discord</code> <code>APIs</code> <code>🔒 privé</code>  
+Suivi de données publiques de wallets : collecte asynchrone, alertes Discord et analyse heuristique d'activité. Pas un système de détection certaine de fraude.
+
+<sub>Autres travaux privés de formation ou personnels : MarsAI, Médiathèque et FacturePro, documentés dans les archives ci-dessous. Les autres dépôts privés restent volontairement non présentés.</sub>
+
+</details>
 
 <details>
 <summary><b><code>> cat ./projects/la-plateforme.md</code> · Projets de formation (détails)</b></summary>
