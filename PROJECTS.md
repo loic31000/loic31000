@@ -10,7 +10,7 @@ Catalogue de **tous les dépôts publics** de [loic31000](https://github.com/loi
 
 <sub>Index initial établi le 12 octobre 2026 à partir des dépôts publics visibles. Après fusion, un workflow dédié le met à jour chaque lundi depuis l'API publique GitHub. Les dépôts privés ne sont pas inclus.</sub>
 
----
+<hr>
 
 ## Sécurité, réseau & investigations (4)
 
@@ -61,7 +61,7 @@ Catalogue de **tous les dépôts publics** de [loic31000](https://github.com/loi
 - **[Exercices-TypeScript-Classes-Constructeurs-et-Encapsulation](https://github.com/loic31000/Exercices-TypeScript-Classes-Constructeurs-et-Encapsulation)** — Dépôt public : code et documentation disponibles sur GitHub.
 - **[tasklist-template](https://github.com/loic31000/tasklist-template)** — Dépôt public : code et documentation disponibles sur GitHub.
 
----
+<hr>
 
 <sub>Génération automatisée : <code>.github/scripts/update-projects.py</code> · Workflow : <code>.github/workflows/public-projects.yml</code>.</sub>
 
