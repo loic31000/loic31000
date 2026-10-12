@@ -89,9 +89,9 @@ Hub de veille et d'investigation : IOC, CVE, OSINT, MITRE ATT&CK, BGP et playboo
 Historisation et analyse des métriques de trafic GitHub, avec séparation des données privées.
 </td>
 <td valign="top">
-<b>🔐 <a href="https://github.com/loic31000/security-ci">Security CI</a></b><br/>
-<code>AppSec</code> <code>GitHub Actions</code><br/><br/>
-Pipeline d'audit de code, dépendances, secrets et workflows. <i>Projet encore en développement.</i>
+<b>🔐 AppSec Audit</b> <code>🔒 privé</code><br/>
+<code>Python</code> <code>AppSec</code> <code>GitHub Actions</code><br/><br/>
+Orchestrateur d'audits multi-stack : SAST, dépendances, secrets, rapports SARIF et contrôles de PR. DAST local optionnel.
 </td>
 </tr>
 <tr>
@@ -104,6 +104,18 @@ Application full-stack de gestion de récapitulatifs et contenus anime / manga.
 <b>🧾 <a href="https://github.com/loic31000/phase3-symfony-facturation">SaaS Facturation</a></b><br/>
 <code>Symfony</code> <code>PostgreSQL</code> <code>Docker</code><br/><br/>
 Application de gestion et facturation, de l'authentification à la modélisation des données.
+</td>
+</tr>
+<tr>
+<td valign="top">
+<b>🎞️ MediaStation</b> <code>🔒 privé</code><br/>
+<code>React</code> <code>Node.js</code> <code>SQLite</code><br/><br/>
+Médiathèque personnelle auto-hébergée : catalogue, métadonnées via APIs, lecteur vidéo et collections. Interface pensée pour naviguer facilement entre films, séries et animés.
+</td>
+<td valign="top">
+<b>📡 Polymarket Discord Tracker</b> <code>🔒 privé</code><br/>
+<code>Python</code> <code>Discord</code> <code>APIs</code><br/><br/>
+Bot de suivi d'activité publique de wallets avec collecte asynchrone, alertes Discord et analyses heuristiques des comportements.
 </td>
 </tr>
 </table>
@@ -120,7 +132,7 @@ Tous les dépôts publics (applications, projets de formation, expérimentations
   <a href="https://github.com/loic31000?tab=repositories">→ Explorer les dépôts triés par activité sur GitHub</a>
 </p>
 
-<sub>L'index est généré à partir des dépôts publics par un workflow dédié. Les dépôts privés ne sont pas indexés ; les projets privés déjà présentés ci-dessous sont des références, sans accès au code source.</sub>
+<sub>L'index est généré à partir des dépôts publics par un workflow dédié. Les projets marqués 🔒 privé sont des réalisations présentées à titre descriptif : leur code source n'est pas public.</sub>
 
 <details>
 <summary><b><code>> cat ./projects/la-plateforme.md</code> · Projets de formation (détails)</b></summary>
