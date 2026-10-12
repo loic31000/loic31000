@@ -113,7 +113,7 @@ def fetch_public_repositories() -> list[dict]:
 
 def escape_inline(value: str) -> str:
     plain = re.sub(r"\s+", " ", value.strip())
-    return html.escape(plain, quote=False).replace("|", r"\|")
+    return html.escape(plain.replace(chr(0x2014), "-"), quote=False).replace("|", r"\|")
 
 
 def get_section(repo_name: str) -> str:
@@ -171,7 +171,7 @@ def render_catalog(repositories: list[dict]) -> str:
             if repo.get("archived"):
                 flags.append("archivé")
             meta = " · ".join([language, "dernier push " + pushed, *flags])
-            lines.append("- **[" + escape_inline(name) + "](" + link + ")** — " + description + "  ")
+            lines.append("- **[" + escape_inline(name) + "](" + link + ")** - " + description + "  ")
             lines.append("  <sub>" + escape_inline(meta) + "</sub>")
         lines.append("")
 
