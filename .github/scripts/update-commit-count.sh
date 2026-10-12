@@ -19,8 +19,8 @@ STARS_TOTAL=0
 FORKS_TOTAL=0
 BRANCHES_TOTAL=0
 BRANCH_SCAN_FAILED=0
-PRS_AUTHORED="—"
-ISSUES_AUTHORED="—"
+PRS_AUTHORED="-"
+ISSUES_AUTHORED="-"
 
 mapfile -t REPOS < <(
   gh repo list "$GITHUB_USER" \
@@ -124,7 +124,7 @@ if ! PRS_AUTHORED="$(
     --jq '.total_count' \
     2>/dev/null
 )"; then
-  PRS_AUTHORED="—"
+  PRS_AUTHORED="-"
 fi
 
 if ! ISSUES_AUTHORED="$(
@@ -136,7 +136,7 @@ if ! ISSUES_AUTHORED="$(
     --jq '.total_count' \
     2>/dev/null
 )"; then
-  ISSUES_AUTHORED="—"
+  ISSUES_AUTHORED="-"
 fi
 
 cd "$GITHUB_WORKSPACE"
