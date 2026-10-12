@@ -24,7 +24,7 @@
 
 </div>
 
----
+<hr>
 
 <div align="center">
 <h3><code>> whoami</code></h3>
@@ -49,7 +49,7 @@ Développeur Web & Mobile Full-Stack, diplômé du titre professionnel **Dévelo
 
 Je développe également des outils autour de la **cybersécurité**, du **réseau**, de l'**OSINT**, du **Threat Intelligence**, de l'**automatisation** et de l'analyse de données.
 
----
+<hr>
 
 <div align="center">
 
@@ -60,7 +60,7 @@ Je développe également des outils autour de la **cybersécurité**, du **rése
 
 </div>
 
----
+<hr>
 
 <a id="selection"></a>
 <div align="center">
@@ -120,7 +120,7 @@ Tous les dépôts publics (applications, projets de formation, expérimentations
   <a href="https://github.com/loic31000?tab=repositories">→ Explorer les dépôts triés par activité sur GitHub</a>
 </p>
 
-<sub>L'index est généré à partir des dépôts publics par un workflow dédié. Les dépôts privés, lorsqu'ils sont cités dans les archives ci-dessous, ne sont pas accessibles aux visiteurs.</sub>
+<sub>L'index est généré à partir des dépôts publics par un workflow dédié. Les dépôts privés ne sont pas indexés ; les projets privés déjà présentés ci-dessous sont des références, sans accès au code source.</sub>
 
 <details>
 <summary><b><code>> cat ./projects/la-plateforme.md</code> · Projets de formation (détails)</b></summary>
@@ -140,7 +140,7 @@ Tous les dépôts publics (applications, projets de formation, expérimentations
 <tbody>
 
 <tr>
-<td valign="top">🎬 <b><a href="https://github.com/loic31000/mars-ia-atelier2-toulouse">MarsAI</a></b></td>
+<td valign="top">🎬 <b>MarsAI</b> <code>🔒 privé</code></td>
 <td valign="top"><b>Projet de groupe - La Plateforme</b></td>
 <td valign="top">
 Plateforme autour d'un festival de courts métrages générés par intelligence artificielle.
@@ -456,7 +456,7 @@ des fichiers multimédias en masse.
 </table>
 </details>
 
----
+<hr>
 
 <a id="about"></a>
 <div align="center">
@@ -661,7 +661,7 @@ Projets :
 ![AI / LLM](https://img.shields.io/badge/AI_%2F_LLM-0D1117?style=for-the-badge&logo=openai&logoColor=00FF41)
 </details>
 
----
+<hr>
 
 <a id="stats"></a>
 <div align="center">
@@ -688,7 +688,7 @@ Projets :
   <img src="./assets/repository-stats.svg" width="49%" alt="GitHub repository overview">
   <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" width="49%">
 </p>
----
+<hr>
 
 <div align="center">
 <h3><code>> grep "mindset" ./brain -r</code></h3>
@@ -703,7 +703,7 @@ Projets :
 </pre>
 
 </div>
----
+<hr>
 
 <div align="center">
 
