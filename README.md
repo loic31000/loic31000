@@ -27,7 +27,7 @@
 <hr>
 
 <div align="center">
-<h3><code>> whoami</code></h3>
+<h3><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2400&amp;pause=8400&amp;color=00FF41&amp;vCenter=true&amp;width=280&amp;height=38&amp;repeat=true&amp;lines=%3E+whoami" alt="&gt; whoami" height="38"></h3>
 </div>
 
 <div align="center">
@@ -55,6 +55,7 @@ Je développe également des outils autour de la **cybersécurité**, du **rése
 
 <a href="#selection">[ PROJECTS ]</a> &nbsp;·&nbsp;
 <a href="#catalogue">[ ALL REPOS ]</a> &nbsp;·&nbsp;
+<a href="#preview">[ PREVIEW ]</a> &nbsp;·&nbsp;
 <a href="#stats">[ LIVE STATS ]</a> &nbsp;·&nbsp;
 <a href="#about">[ MORE ABOUT ME ]</a>
 
@@ -64,7 +65,7 @@ Je développe également des outils autour de la **cybersécurité**, du **rése
 
 <a id="selection"></a>
 <div align="center">
-<h3><code>> ls -la ./selected-projects</code></h3>
+<h3><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2400&amp;pause=8400&amp;color=00FF41&amp;vCenter=true&amp;width=495&amp;height=38&amp;repeat=true&amp;lines=%3E+ls+-la+.%2Fselected-projects" alt="&gt; ls -la ./selected-projects" height="38"></h3>
 </div>
 
 **Quelques projets à explorer en priorité.** Même ADN full-stack / sécurité / open source, sans transformer la page d'accueil en inventaire technique.
@@ -72,69 +73,47 @@ Je développe également des outils autour de la **cybersécurité**, du **rése
 <table>
 <tr>
 <td width="50%" valign="top">
-<b>🤖 <a href="https://github.com/loic31000/local-agents">Nexus · Local Agents</a></b><br/>
-<code>Go</code> <code>Python</code> <code>React</code><br/><br/>
-Plateforme d'agents IA locaux avec orchestrateur et interface, conçue pour fonctionner sans dépendre d'un service cloud.
-</td>
-<td width="50%" valign="top">
 <b>🛡️ <a href="https://github.com/loic31000/CyberHub">CyberHub</a></b><br/>
 <code>Go</code> <code>React</code> <code>CTI</code><br/><br/>
 Hub de veille et d'investigation : IOC, CVE, OSINT, MITRE ATT&CK, BGP et playbooks.
 </td>
+<td width="50%" valign="top">
+<b>🤖 <a href="https://github.com/loic31000/local-agents">Nexus · Local Agents</a></b><br/>
+<code>Go</code> <code>Python</code> <code>React</code><br/><br/>
+Plateforme d'agents IA locaux avec orchestrateur et interface, conçue pour fonctionner sans dépendre d'un service cloud.
+</td>
 </tr>
 <tr>
-<td valign="top">
-<b>📊 <a href="https://github.com/loic31000/github-traffic-observer">GitHub Traffic Observer</a></b><br/>
-<code>Python</code> <code>GitHub Actions</code><br/><br/>
-Historisation et analyse des métriques de trafic GitHub, avec séparation des données privées.
-</td>
-<td valign="top">
+<td width="50%" valign="top">
 <b>🌐 <a href="https://github.com/loic31000/bgp-hijack-orange-2026">BGP Hijack Investigation</a></b><br/>
 <code>BGP</code> <code>RPKI</code> <code>OSINT</code><br/><br/>
 Investigation indépendante d'un incident de routage, avec analyse ASN, chronologie et rapport technique interactif.
 </td>
-</tr>
-<tr>
-<td valign="top">
-<b>📚 <a href="https://github.com/loic31000/AniRecap">AniRecap</a></b><br/>
-<code>Symfony</code> <code>PHP</code> <code>SQL</code><br/><br/>
-Application full-stack de gestion de récapitulatifs et contenus anime / manga.
-</td>
-<td valign="top">
+<td width="50%" valign="top">
 <b>🐍 <a href="https://github.com/loic31000/FileRenamer">FileRenamer</a></b><br/>
 <code>Python</code> <code>Desktop UI</code> <code>Automatisation</code><br/><br/>
 Outil de renommage en lot avec aperçu avant/après, conventions de nommage et prise en charge des films et mangas.
 </td>
 </tr>
-
+<tr>
+<td width="50%" valign="top">
+<b>📚 <a href="https://github.com/loic31000/AniRecap">AniRecap</a></b><br/>
+<code>Symfony</code> <code>PHP</code> <code>SQL</code><br/><br/>
+Application full-stack de gestion de récapitulatifs et contenus anime / manga.
+</td>
+<td width="50%" valign="top">
+<b>📊 <a href="https://github.com/loic31000/github-traffic-observer">GitHub Traffic Observer</a></b><br/>
+<code>Python</code> <code>GitHub Actions</code><br/><br/>
+Historisation et analyse des métriques de trafic GitHub, avec séparation des données privées.
+</td>
+</tr>
 </table>
 
-<details>
-<summary><b><code>> ./preview.sh --selected</code> · Voir les interfaces (5 captures)</b></summary>
 
-<p align="center">
-  <sub>Quelques écrans concrets — cliquer sur une image pour l'agrandir.</sub>
-</p>
-
-<p align="center">
-  <a href="./assets/showcase/cyberhub.webp"><img src="./assets/showcase/cyberhub.webp" width="49%" alt="CyberHub — dashboard d'investigation et de veille cybersécurité"></a>
-  <a href="./assets/showcase/nexus-models.png"><img src="./assets/showcase/nexus-models.png" width="49%" alt="Nexus Local Agents — gestion des modèles IA locaux"></a>
-</p>
-
-<p align="center">
-  <a href="./assets/showcase/mediastation.png"><img src="./assets/showcase/mediastation.png" width="49%" alt="MediaStation — interface React de détail d'un média"></a>
-  <a href="./assets/showcase/filerenamer.png"><img src="./assets/showcase/filerenamer.png" width="49%" alt="FileRenamer — prévisualisation du renommage de fichiers multimédias"></a>
-</p>
-
-<p align="center">
-  <a href="./assets/showcase/bgp-investigation.webp"><img src="./assets/showcase/bgp-investigation.webp" width="75%" alt="BGP Hijack Investigation — rapport d'investigation réseau interactif"></a>
-</p>
-
-</details>
 
 <a id="catalogue"></a>
 <div align="center">
-<h3><code>> find ./projects -type f</code></h3>
+<h3><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2400&amp;pause=8400&amp;color=00FF41&amp;vCenter=true&amp;width=470&amp;height=38&amp;repeat=true&amp;lines=%3E+find+.%2Fprojects+-type+f" alt="&gt; find ./projects -type f" height="38"></h3>
 </div>
 
 Tous les dépôts publics (applications, projets de formation, expérimentations, IA, sécurité) sont regroupés dans un index séparé, pour garder le profil lisible.
@@ -149,7 +128,7 @@ Tous les dépôts publics (applications, projets de formation, expérimentations
 
 
 <details>
-<summary><b><code>> cat ./projects/la-plateforme.md</code> · Projets de formation (détails)</b></summary>
+<summary><b><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=2600&amp;pause=9000&amp;color=00FF41&amp;vCenter=true&amp;width=550&amp;height=28&amp;repeat=true&amp;lines=%3E+cat+.%2Fprojects%2Fla-plateforme.md" alt="&gt; cat ./projects/la-plateforme.md" height="28"> · Projets de formation (détails)</b></summary>
 
 ## 🏆 Projets phares - La Plateforme
 
@@ -305,7 +284,7 @@ projectiles, collisions et entités orientées objet.
 </details>
 
 <details>
-<summary><b><code>> cat ./projects/personal.md</code> · Projets personnels, open source et cyber (détails)</b></summary>
+<summary><b><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=2600&amp;pause=9000&amp;color=00FF41&amp;vCenter=true&amp;width=500&amp;height=28&amp;repeat=true&amp;lines=%3E+cat+.%2Fprojects%2Fpersonal.md" alt="&gt; cat ./projects/personal.md" height="28"> · Projets personnels, open source et cyber (détails)</b></summary>
 
 ## 🔐 Projets personnels, open source & cybersécurité
 
@@ -482,12 +461,13 @@ des fichiers multimédias en masse.
 </table>
 </details>
 
-<div align="center">
-<h3><code>> ls -la ./personal</code></h3>
-</div>
 
+
+
+
+<a id="private-work"></a>
 <details>
-<summary><b><code>> cat ./personal/private.md</code> · Projets personnels privés (présentation uniquement)</b></summary>
+<summary><b><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=2600&amp;pause=9000&amp;color=00FF41&amp;vCenter=true&amp;width=510&amp;height=28&amp;repeat=true&amp;lines=%3E+cat+.%2Fpersonal%2Fprivate.md" alt="&gt; cat ./personal/private.md" height="28"> · Projets personnels privés (présentation uniquement)</b></summary>
 
 <br/>
 
@@ -504,19 +484,41 @@ Suivi de données publiques de wallets : collecte asynchrone, alertes Discord et
 
 </details>
 
+<a id="preview"></a>
+<details>
+<summary><b><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=2600&amp;pause=9000&amp;color=00FF41&amp;vCenter=true&amp;width=470&amp;height=28&amp;repeat=true&amp;lines=%3E+.%2Fpreview.sh+--selected" alt="&gt; ./preview.sh --selected" height="28"> · Voir les interfaces (5 captures)</b></summary>
+
+<p align="center">
+  <sub>Quelques écrans concrets - cliquer sur une image pour l'agrandir.</sub>
+</p>
+
+<p align="center">
+  <a href="./assets/showcase/cyberhub.webp"><img src="./assets/showcase/cyberhub.webp" width="49%" alt="CyberHub - dashboard d'investigation et de veille cybersécurité"></a>
+  <a href="./assets/showcase/nexus-models.png"><img src="./assets/showcase/nexus-models.png" width="49%" alt="Nexus Local Agents - gestion des modèles IA locaux"></a>
+</p>
+
+<p align="center">
+  <a href="./assets/showcase/mediastation.png"><img src="./assets/showcase/mediastation.png" width="49%" alt="MediaStation - interface React de détail d'un média"></a>
+  <a href="./assets/showcase/filerenamer.png"><img src="./assets/showcase/filerenamer.png" width="49%" alt="FileRenamer - prévisualisation du renommage de fichiers multimédias"></a>
+</p>
+
+<p align="center">
+  <a href="./assets/showcase/bgp-investigation.webp"><img src="./assets/showcase/bgp-investigation.webp" width="75%" alt="BGP Hijack Investigation - rapport d'investigation réseau interactif"></a>
+</p>
+
+</details>
+
 <hr>
 
 <a id="about"></a>
 <div align="center">
-<h3><code>> ls -la ./more-about-me</code></h3>
+<h3><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2400&amp;pause=8400&amp;color=00FF41&amp;vCenter=true&amp;width=470&amp;height=38&amp;repeat=true&amp;lines=%3E+ls+-la+.%2Fmore-about-me" alt="&gt; ls -la ./more-about-me" height="38"></h3>
 </div>
 
 <details>
-<summary><b><code>> cat ./experience.log</code> · Formation & expérience</b></summary>
+<summary><b><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=2600&amp;pause=9000&amp;color=00FF41&amp;vCenter=true&amp;width=385&amp;height=28&amp;repeat=true&amp;lines=%3E+cat+.%2Fexperience.log" alt="&gt; cat ./experience.log" height="28"> · Formation & expérience</b></summary>
 
-<div align="center">
-<h3><code>> cat ./experience.log</code></h3>
-</div>
+
 
 ```text
 2025 ─ 2026
@@ -549,11 +551,9 @@ Projets :
 </details>
 
 <details>
-<summary><b><code>> cat ./cyber-focus.md</code> · Domaines cyber</b></summary>
+<summary><b><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=2600&amp;pause=9000&amp;color=00FF41&amp;vCenter=true&amp;width=420&amp;height=28&amp;repeat=true&amp;lines=%3E+cat+.%2Fcyber-focus.md" alt="&gt; cat ./cyber-focus.md" height="28"> · Domaines cyber</b></summary>
 
-<div align="center">
-<h3><code>> cat ./cyber-focus.md</code></h3>
-</div>
+
 
 <div align="center">
 
@@ -636,11 +636,9 @@ Projets :
 </details>
 
 <details>
-<summary><b><code>> cat ./stack.json</code> · Stack complète & outils</b></summary>
+<summary><b><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=2600&amp;pause=9000&amp;color=00FF41&amp;vCenter=true&amp;width=325&amp;height=28&amp;repeat=true&amp;lines=%3E+cat+.%2Fstack.json" alt="&gt; cat ./stack.json" height="28"> · Stack complète & outils</b></summary>
 
-<div align="center">
-<h3><code>> cat ./stack.json</code></h3>
-</div>
+
 
 ### Frontend
 
@@ -713,7 +711,7 @@ Projets :
 
 <a id="stats"></a>
 <div align="center">
-<h3><code>> ./github --stats</code></h3>
+<h3><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2400&amp;pause=8400&amp;color=00FF41&amp;vCenter=true&amp;width=340&amp;height=38&amp;repeat=true&amp;lines=%3E+.%2Fgithub+--stats" alt="&gt; ./github --stats" height="38"></h3>
 </div>
 
 <!-- Stats générées automatiquement par GitHub Actions -->
@@ -739,7 +737,7 @@ Projets :
 <hr>
 
 <div align="center">
-<h3><code>> grep "mindset" ./brain -r</code></h3>
+<h3><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2400&amp;pause=8400&amp;color=00FF41&amp;vCenter=true&amp;width=550&amp;height=38&amp;repeat=true&amp;lines=%3E+grep+%22mindset%22+.%2Fbrain+-r" alt="&gt; grep &quot;mindset&quot; ./brain -r" height="38"></h3>
 
 <pre>
 + Comprendre avant d'automatiser.
@@ -755,7 +753,7 @@ Projets :
 
 <div align="center">
 
-<h3><code>> ./connect.sh</code></h3>
+<h3><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2400&amp;pause=8400&amp;color=00FF41&amp;vCenter=true&amp;width=305&amp;height=38&amp;repeat=true&amp;lines=%3E+.%2Fconnect.sh" alt="&gt; ./connect.sh" height="38"></h3>
 
 [![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/loic31000)
 
