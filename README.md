@@ -73,36 +73,36 @@ Je développe également des outils autour de la **cybersécurité**, du **rése
 <tr>
 <td width="50%" valign="top">
 <b>🤖 <a href="https://github.com/loic31000/local-agents">Nexus · Local Agents</a></b><br/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/go/go-original.svg" width="24" height="24" alt="Go" title="Go"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg" width="24" height="24" alt="Python" title="Python"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/react/react-original.svg" width="24" height="24" alt="React" title="React"><br/><br/>
+<code>Go</code> &middot; <code>Python</code> &middot; <code>React</code><br/><br/>
 Plateforme d'agents IA locaux avec orchestrateur et interface, conçue pour fonctionner sans dépendre d'un service cloud.
 </td>
 <td width="50%" valign="top">
 <b>🛡️ <a href="https://github.com/loic31000/CyberHub">CyberHub</a></b><br/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/go/go-original.svg" width="24" height="24" alt="Go" title="Go"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/react/react-original.svg" width="24" height="24" alt="React" title="React"> <code>CTI</code><br/><br/>
+<code>Go</code> &middot; <code>React</code> &middot; <code>CTI</code><br/><br/>
 Hub de veille et d'investigation : IOC, CVE, OSINT, MITRE ATT&CK, BGP et playbooks.
 </td>
 </tr>
 <tr>
 <td valign="top">
 <b>📊 <a href="https://github.com/loic31000/github-traffic-observer">GitHub Traffic Observer</a></b><br/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg" width="24" height="24" alt="Python" title="Python"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/githubactions/githubactions-original.svg" width="24" height="24" alt="GitHub Actions" title="GitHub Actions"><br/><br/>
+<code>Python</code> &middot; <code>GitHub Actions</code><br/><br/>
 Historisation et analyse des métriques de trafic GitHub, avec séparation des données privées.
 </td>
 <td valign="top">
 <b>🌐 <a href="https://github.com/loic31000/bgp-hijack-orange-2026">BGP Hijack Investigation</a></b><br/>
-<code>BGP</code> <code>RPKI</code> <code>OSINT</code><br/><br/>
+<code>BGP</code> &middot; <code>RPKI</code> &middot; <code>OSINT</code><br/><br/>
 Investigation indépendante d'un incident de routage, avec analyse ASN, chronologie et rapport technique interactif.
 </td>
 </tr>
 <tr>
 <td valign="top">
 <b>📚 <a href="https://github.com/loic31000/AniRecap">AniRecap</a></b><br/>
-<img src="https://skillicons.dev/icons?i=symfony&amp;theme=dark" width="24" height="24" alt="Symfony" title="Symfony"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/php/php-original.svg" width="24" height="24" alt="PHP" title="PHP"> <code>SQL</code><br/><br/>
+<code>Symfony</code> &middot; <code>PHP</code> &middot; <code>SQL</code><br/><br/>
 Application full-stack de gestion de récapitulatifs et contenus anime / manga.
 </td>
 <td valign="top">
 <b>🐍 <a href="https://github.com/loic31000/FileRenamer">FileRenamer</a></b><br/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg" width="24" height="24" alt="Python" title="Python"> <code>Desktop UI</code> <code>Automatisation</code><br/><br/>
+<code>Python</code> &middot; <code>Desktop UI</code> &middot; <code>Automatisation</code><br/><br/>
 Outil de renommage en lot avec aperçu avant/après, conventions de nommage et prise en charge des films et mangas.
 </td>
 </tr>
@@ -150,10 +150,10 @@ Plateforme autour d'un festival de courts métrages générés par intelligence 
 Projet Full-Stack réalisé en équipe avec intégration frontend/backend et logique applicative.
 </td>
 <td valign="top">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/react/react-original.svg" width="24" height="24" alt="React" title="React">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nodejs/nodejs-original.svg" width="24" height="24" alt="Node.js" title="Node.js">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/javascript/javascript-original.svg" width="24" height="24" alt="JavaScript" title="JavaScript"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/typescript/typescript-original.svg" width="24" height="24" alt="TypeScript" title="TypeScript">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/tailwindcss/tailwindcss-original.svg" width="24" height="24" alt="Tailwind" title="Tailwind">
+<code>React</code>
+<code>Node.js</code>
+<code>JavaScript / TypeScript</code>
+<code>Tailwind</code>
 </td>
 </tr>
 
@@ -165,9 +165,9 @@ Application de gestion de médiathèque avec architecture métier,
 gestion de données relationnelles et attention portée à la sécurité des données.
 </td>
 <td valign="top">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/php/php-original.svg" width="24" height="24" alt="PHP" title="PHP">
-<img src="https://skillicons.dev/icons?i=symfony&amp;theme=dark" width="24" height="24" alt="Symfony" title="Symfony">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/doctrine/doctrine-original.svg" width="24" height="24" alt="Doctrine" title="Doctrine">
+<code>PHP</code>
+<code>Symfony</code>
+<code>Doctrine</code>
 <code>SQL</code>
 <code>MVC</code>
 </td>
@@ -182,13 +182,13 @@ factures et lignes de facturation. Dashboard, authentification,
 modélisation Doctrine et environnement conteneurisé.
 </td>
 <td valign="top">
-<img src="https://skillicons.dev/icons?i=symfony&amp;theme=dark" width="24" height="24" alt="Symfony 8" title="Symfony 8">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/php/php-original.svg" width="24" height="24" alt="PHP 8.4" title="PHP 8.4">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/doctrine/doctrine-original.svg" width="24" height="24" alt="Doctrine" title="Doctrine">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postgresql/postgresql-original.svg" width="24" height="24" alt="PostgreSQL 16" title="PostgreSQL 16">
+<code>Symfony 8</code>
+<code>PHP 8.4</code>
+<code>Doctrine</code>
+<code>PostgreSQL 16</code>
 <code>Twig</code>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/tailwindcss/tailwindcss-original.svg" width="24" height="24" alt="Tailwind" title="Tailwind">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/docker/docker-original.svg" width="24" height="24" alt="Docker" title="Docker">
+<code>Tailwind</code>
+<code>Docker</code>
 <code>PHPUnit</code>
 </td>
 </tr>
@@ -201,8 +201,8 @@ Application de gestion de tâches avec authentification,
 priorités, statuts, tâches épinglées, dossiers et relations utilisateurs/données.
 </td>
 <td valign="top">
-<img src="https://skillicons.dev/icons?i=symfony&amp;theme=dark" width="24" height="24" alt="Symfony" title="Symfony">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/doctrine/doctrine-original.svg" width="24" height="24" alt="Doctrine" title="Doctrine">
+<code>Symfony</code>
+<code>Doctrine</code>
 <code>Auth</code>
 <code>CRUD</code>
 <code>SQL</code>
@@ -223,15 +223,15 @@ formulaires et environnement Docker.
 <a href="https://github.com/loic31000/symfony_pokedex">→ Symfony Pokédex</a>
 </td>
 <td valign="top">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/javascript/javascript-original.svg" width="24" height="24" alt="JavaScript" title="JavaScript">
+<code>JavaScript</code>
 <code>REST API</code>
-<img src="https://skillicons.dev/icons?i=symfony&amp;theme=dark" width="24" height="24" alt="Symfony 8" title="Symfony 8">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/php/php-original.svg" width="24" height="24" alt="PHP 8.4" title="PHP 8.4">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/doctrine/doctrine-original.svg" width="24" height="24" alt="Doctrine" title="Doctrine">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postgresql/postgresql-original.svg" width="24" height="24" alt="PostgreSQL" title="PostgreSQL">
+<code>Symfony 8</code>
+<code>PHP 8.4</code>
+<code>Doctrine</code>
+<code>PostgreSQL</code>
 <code>Twig</code>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/tailwindcss/tailwindcss-original.svg" width="24" height="24" alt="Tailwind" title="Tailwind">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/docker/docker-original.svg" width="24" height="24" alt="Docker Compose" title="Docker Compose">
+<code>Tailwind</code>
+<code>Docker Compose</code>
 </td>
 </tr>
 
@@ -245,17 +245,17 @@ profils utilisateurs et gestion sécurisée des sessions.
 Architecture entièrement conteneurisée.
 </td>
 <td valign="top">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/react/react-original.svg" width="24" height="24" alt="React 19" title="React 19">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/reactrouter/reactrouter-original.svg" width="24" height="24" alt="React Router" title="React Router">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/vite/vite-original.svg" width="24" height="24" alt="Vite" title="Vite">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nodejs/nodejs-original.svg" width="24" height="24" alt="Node.js" title="Node.js">
-<img src="https://skillicons.dev/icons?i=express&amp;theme=dark" width="24" height="24" alt="Express 5" title="Express 5">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/sequelize/sequelize-original.svg" width="24" height="24" alt="Sequelize" title="Sequelize">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/mysql/mysql-original.svg" width="24" height="24" alt="MySQL 8" title="MySQL 8">
+<code>React 19</code>
+<code>React Router</code>
+<code>Vite</code>
+<code>Node.js</code>
+<code>Express 5</code>
+<code>Sequelize</code>
+<code>MySQL 8</code>
 <code>JWT</code>
 <code>bcrypt</code>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/docker/docker-original.svg" width="24" height="24" alt="Docker Compose" title="Docker Compose">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/apache/apache-original.svg" width="24" height="24" alt="Apache" title="Apache">
+<code>Docker Compose</code>
+<code>Apache</code>
 </td>
 </tr>
 
@@ -268,12 +268,12 @@ d'astéroïdes et d'envahisseurs. Gestion du score, vies, vagues,
 projectiles, collisions et entités orientées objet.
 </td>
 <td valign="top">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/typescript/typescript-original.svg" width="24" height="24" alt="TypeScript" title="TypeScript">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/html5/html5-original.svg" width="24" height="24" alt="HTML5 Canvas" title="HTML5 Canvas">
+<code>TypeScript</code>
+<code>HTML5 Canvas</code>
 <code>OOP</code>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/css3/css3-original.svg" width="24" height="24" alt="CSS3" title="CSS3">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/docker/docker-original.svg" width="24" height="24" alt="Docker" title="Docker">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/apache/apache-original.svg" width="24" height="24" alt="Apache" title="Apache">
+<code>CSS3</code>
+<code>Docker</code>
+<code>Apache</code>
 </td>
 </tr>
 
@@ -307,8 +307,8 @@ et détecte plusieurs signaux d'anomalie. L'architecture sépare le moteur publi
 qui restent dans un dépôt privé contrôlé par l'utilisateur.
 </td>
 <td valign="top">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg" width="24" height="24" alt="Python" title="Python">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/githubactions/githubactions-original.svg" width="24" height="24" alt="GitHub Actions" title="GitHub Actions">
+<code>Python</code>
+<code>GitHub Actions</code>
 <code>GitHub REST API</code>
 <code>CSV / JSON</code>
 <code>Observability</code>
@@ -329,9 +329,9 @@ conventions, journal de tests et cadre de validation progressive sur des cas ré
 <td valign="top">
 <code>Codex</code>
 <code>Prompt Engineering</code>
-<img src="https://skillicons.dev/icons?i=md&amp;theme=dark" width="24" height="24" alt="Markdown" title="Markdown">
-<img src="https://skillicons.dev/icons?i=obsidian&amp;theme=dark" width="24" height="24" alt="Obsidian" title="Obsidian">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/git/git-original.svg" width="24" height="24" alt="Git" title="Git"> <img src="https://skillicons.dev/icons?i=github&amp;theme=dark" width="24" height="24" alt="GitHub" title="GitHub">
+<code>Markdown</code>
+<code>Obsidian</code>
+<code>Git / GitHub</code>
 <code>Software Engineering</code>
 </td>
 </tr>
@@ -345,7 +345,7 @@ dans un contexte identique. La suite automatise l'exécution des cas, la reprise
 la génération de diffs et la synthèse des résultats.
 </td>
 <td valign="top">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/powershell/powershell-original.svg" width="24" height="24" alt="PowerShell" title="PowerShell">
+<code>PowerShell</code>
 <code>JSON</code>
 <code>Codex</code>
 <code>Prompt Testing</code>
@@ -365,16 +365,16 @@ Le projet intègre aussi la préparation aux flux de facturation électronique
 et la gestion de données structurées de facture.
 </td>
 <td valign="top">
-<img src="https://skillicons.dev/icons?i=symfony&amp;theme=dark" width="24" height="24" alt="Symfony" title="Symfony">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/php/php-original.svg" width="24" height="24" alt="PHP 8.4" title="PHP 8.4">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/doctrine/doctrine-original.svg" width="24" height="24" alt="Doctrine" title="Doctrine">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postgresql/postgresql-original.svg" width="24" height="24" alt="PostgreSQL 16" title="PostgreSQL 16">
+<code>Symfony</code>
+<code>PHP 8.4</code>
+<code>Doctrine</code>
+<code>PostgreSQL 16</code>
 <code>Twig</code>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/react/react-original.svg" width="24" height="24" alt="React" title="React">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/tailwindcss/tailwindcss-original.svg" width="24" height="24" alt="Tailwind CSS" title="Tailwind CSS">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/docker/docker-original.svg" width="24" height="24" alt="Docker" title="Docker">
+<code>React</code>
+<code>Tailwind CSS</code>
+<code>Docker</code>
 <code>PHPUnit</code>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/playwright/playwright-original.svg" width="24" height="24" alt="Playwright" title="Playwright">
+<code>Playwright</code>
 </td>
 </tr>
 
@@ -386,10 +386,10 @@ CISA KEV, MITRE ATT&CK, BGP/AS, OSINT, playbooks de réponse à incident,
 investigations et corrélation de données.
 </td>
 <td valign="top">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/go/go-original.svg" width="24" height="24" alt="Go" title="Go">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/react/react-original.svg" width="24" height="24" alt="React" title="React">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/typescript/typescript-original.svg" width="24" height="24" alt="TypeScript" title="TypeScript">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/sqlite/sqlite-original.svg" width="24" height="24" alt="SQLite" title="SQLite">
+<code>Go</code>
+<code>React</code>
+<code>TypeScript</code>
+<code>SQLite</code>
 <code>CTI</code>
 <code>MITRE ATT&CK</code>
 </td>
@@ -418,7 +418,7 @@ Outil Python de monitoring passif via RIPEstat avec analyse d'origines ASN,
 historique, alertes, logs persistants et rapports HTML automatisés.
 </td>
 <td valign="top">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg" width="24" height="24" alt="Python" title="Python">
+<code>Python</code>
 <code>RIPEstat API</code>
 <code>BGP</code>
 <code>ASN</code>
@@ -434,10 +434,10 @@ avec authentification, catalogue, saisons, épisodes, chapitres,
 personnages, favoris, uploads protégés et contrôle d'accès.
 </td>
 <td valign="top">
-<img src="https://skillicons.dev/icons?i=symfony&amp;theme=dark" width="24" height="24" alt="Symfony" title="Symfony">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/php/php-original.svg" width="24" height="24" alt="PHP 8.4" title="PHP 8.4">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/doctrine/doctrine-original.svg" width="24" height="24" alt="Doctrine" title="Doctrine">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/mysql/mysql-original.svg" width="24" height="24" alt="MySQL" title="MySQL">
+<code>Symfony</code>
+<code>PHP 8.4</code>
+<code>Doctrine</code>
+<code>MySQL</code>
 <code>Twig</code>
 <code>Stimulus</code>
 <code>PHPUnit</code>
@@ -451,7 +451,7 @@ Application Python permettant de renommer et organiser
 des fichiers multimédias en masse.
 </td>
 <td valign="top">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg" width="24" height="24" alt="Python" title="Python">
+<code>Python</code>
 </td>
 </tr>
 
@@ -465,13 +465,13 @@ des fichiers multimédias en masse.
 
 <br/>
 
-**🔐 AppSec Audit** · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg" width="24" height="24" alt="Python" title="Python"> <code>AppSec</code> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/githubactions/githubactions-original.svg" width="24" height="24" alt="GitHub Actions" title="GitHub Actions"> <code>🔒 privé</code>  
+**🔐 AppSec Audit** · <code>Python</code> &middot; <code>AppSec</code> &middot; <code>GitHub Actions</code> <code>🔒 privé</code>  
 Orchestrateur de contrôles de sécurité multi-stack : SAST, audit des dépendances, secrets, politiques GitHub Actions et rapports SARIF. Projet évolutif, sans accès public au code.
 
-**🎞️ MediaStation** · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/react/react-original.svg" width="24" height="24" alt="React" title="React"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nodejs/nodejs-original.svg" width="24" height="24" alt="Node.js" title="Node.js"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/sqlite/sqlite-original.svg" width="24" height="24" alt="SQLite" title="SQLite"> <code>🔒 privé</code>  
+**🎞️ MediaStation** · <code>React</code> &middot; <code>Node.js</code> &middot; <code>SQLite</code> <code>🔒 privé</code>  
 Médiathèque auto-hébergée avec catalogue, intégration de métadonnées, lecteur vidéo, collections et gestion des fichiers.
 
-**📡 Polymarket Discord Tracker** · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg" width="24" height="24" alt="Python" title="Python"> <img src="https://skillicons.dev/icons?i=discord&amp;theme=dark" width="24" height="24" alt="Discord" title="Discord"> <code>APIs</code> <code>🔒 privé</code>  
+**📡 Polymarket Discord Tracker** · <code>Python</code> &middot; <code>Discord</code> &middot; <code>APIs</code> <code>🔒 privé</code>  
 Suivi de données publiques de wallets : collecte asynchrone, alertes Discord et analyse heuristique d'activité. Pas un système de détection certaine de fraude.
 
 <sub>Autres travaux privés de formation ou personnels : MarsAI, Médiathèque et FacturePro, documentés dans les archives ci-dessus. Les autres dépôts privés restent volontairement non présentés.</sub>
