@@ -73,36 +73,36 @@ Je développe également des outils autour de la **cybersécurité**, du **rése
 <tr>
 <td width="50%" valign="top">
 <b>🤖 <a href="https://github.com/loic31000/local-agents">Nexus · Local Agents</a></b><br/>
-<code>Go</code> <code>Python</code> <code>React</code><br/><br/>
+<code>Go</code> &middot; <code>Python</code> &middot; <code>React</code><br/><br/>
 Plateforme d'agents IA locaux avec orchestrateur et interface, conçue pour fonctionner sans dépendre d'un service cloud.
 </td>
 <td width="50%" valign="top">
 <b>🛡️ <a href="https://github.com/loic31000/CyberHub">CyberHub</a></b><br/>
-<code>Go</code> <code>React</code> <code>CTI</code><br/><br/>
+<code>Go</code> &middot; <code>React</code> &middot; <code>CTI</code><br/><br/>
 Hub de veille et d'investigation : IOC, CVE, OSINT, MITRE ATT&CK, BGP et playbooks.
 </td>
 </tr>
 <tr>
 <td valign="top">
 <b>📊 <a href="https://github.com/loic31000/github-traffic-observer">GitHub Traffic Observer</a></b><br/>
-<code>Python</code> <code>GitHub Actions</code><br/><br/>
+<code>Python</code> &middot; <code>GitHub Actions</code><br/><br/>
 Historisation et analyse des métriques de trafic GitHub, avec séparation des données privées.
 </td>
 <td valign="top">
 <b>🌐 <a href="https://github.com/loic31000/bgp-hijack-orange-2026">BGP Hijack Investigation</a></b><br/>
-<code>BGP</code> <code>RPKI</code> <code>OSINT</code><br/><br/>
+<code>BGP</code> &middot; <code>RPKI</code> &middot; <code>OSINT</code><br/><br/>
 Investigation indépendante d'un incident de routage, avec analyse ASN, chronologie et rapport technique interactif.
 </td>
 </tr>
 <tr>
 <td valign="top">
 <b>📚 <a href="https://github.com/loic31000/AniRecap">AniRecap</a></b><br/>
-<code>Symfony</code> <code>PHP</code> <code>SQL</code><br/><br/>
+<code>Symfony</code> &middot; <code>PHP</code> &middot; <code>SQL</code><br/><br/>
 Application full-stack de gestion de récapitulatifs et contenus anime / manga.
 </td>
 <td valign="top">
 <b>🐍 <a href="https://github.com/loic31000/FileRenamer">FileRenamer</a></b><br/>
-<code>Python</code> <code>Desktop UI</code> <code>Automatisation</code><br/><br/>
+<code>Python</code> &middot; <code>Desktop UI</code> &middot; <code>Automatisation</code><br/><br/>
 Outil de renommage en lot avec aperçu avant/après, conventions de nommage et prise en charge des films et mangas.
 </td>
 </tr>
@@ -465,13 +465,13 @@ des fichiers multimédias en masse.
 
 <br/>
 
-**🔐 AppSec Audit** · <code>Python</code> <code>AppSec</code> <code>GitHub Actions</code> <code>🔒 privé</code>  
+**🔐 AppSec Audit** · <code>Python</code> &middot; <code>AppSec</code> &middot; <code>GitHub Actions</code> <code>🔒 privé</code>  
 Orchestrateur de contrôles de sécurité multi-stack : SAST, audit des dépendances, secrets, politiques GitHub Actions et rapports SARIF. Projet évolutif, sans accès public au code.
 
-**🎞️ MediaStation** · <code>React</code> <code>Node.js</code> <code>SQLite</code> <code>🔒 privé</code>  
+**🎞️ MediaStation** · <code>React</code> &middot; <code>Node.js</code> &middot; <code>SQLite</code> <code>🔒 privé</code>  
 Médiathèque auto-hébergée avec catalogue, intégration de métadonnées, lecteur vidéo, collections et gestion des fichiers.
 
-**📡 Polymarket Discord Tracker** · <code>Python</code> <code>Discord</code> <code>APIs</code> <code>🔒 privé</code>  
+**📡 Polymarket Discord Tracker** · <code>Python</code> &middot; <code>Discord</code> &middot; <code>APIs</code> <code>🔒 privé</code>  
 Suivi de données publiques de wallets : collecte asynchrone, alertes Discord et analyse heuristique d'activité. Pas un système de détection certaine de fraude.
 
 <sub>Autres travaux privés de formation ou personnels : MarsAI, Médiathèque et FacturePro, documentés dans les archives ci-dessus. Les autres dépôts privés restent volontairement non présentés.</sub>
