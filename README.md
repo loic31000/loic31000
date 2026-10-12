@@ -52,8 +52,78 @@ Je développe également des outils autour de la **cybersécurité**, du **rése
 ---
 
 <div align="center">
+
+<a href="#selection">[ PROJECTS ]</a> &nbsp;·&nbsp;
+<a href="#catalogue">[ ALL REPOS ]</a> &nbsp;·&nbsp;
+<a href="#stats">[ LIVE STATS ]</a> &nbsp;·&nbsp;
+<a href="#about">[ MORE ABOUT ME ]</a>
+
+</div>
+
+---
+
+<a id="selection"></a>
+<div align="center">
 <h3><code>> ls -la ./featured-projects</code></h3>
 </div>
+
+**Quelques projets à explorer en priorité.** Même ADN full-stack / sécurité / open source, sans transformer la page d'accueil en inventaire technique.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<b>🤖 <a href="https://github.com/loic31000/local-agents">Nexus · Local Agents</a></b><br/>
+<code>Go</code> <code>Python</code> <code>React</code><br/><br/>
+Plateforme d'agents IA locaux avec orchestrateur et interface, conçue pour fonctionner sans dépendre d'un service cloud.
+</td>
+<td width="50%" valign="top">
+<b>🛡️ <a href="https://github.com/loic31000/CyberHub">CyberHub</a></b><br/>
+<code>Go</code> <code>React</code> <code>CTI</code><br/><br/>
+Hub de veille et d'investigation : IOC, CVE, OSINT, MITRE ATT&CK, BGP et playbooks.
+</td>
+</tr>
+<tr>
+<td valign="top">
+<b>📊 <a href="https://github.com/loic31000/github-traffic-observer">GitHub Traffic Observer</a></b><br/>
+<code>Python</code> <code>GitHub Actions</code><br/><br/>
+Historisation et analyse des métriques de trafic GitHub, avec séparation des données privées.
+</td>
+<td valign="top">
+<b>🔐 <a href="https://github.com/loic31000/security-ci">Security CI</a></b><br/>
+<code>AppSec</code> <code>GitHub Actions</code><br/><br/>
+Pipeline d'audit de code, dépendances, secrets et workflows. <i>Projet encore en développement.</i>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<b>📚 <a href="https://github.com/loic31000/AniRecap">AniRecap</a></b><br/>
+<code>Symfony</code> <code>PHP</code> <code>SQL</code><br/><br/>
+Application full-stack de gestion de récapitulatifs et contenus anime / manga.
+</td>
+<td valign="top">
+<b>🧾 <a href="https://github.com/loic31000/phase3-symfony-facturation">SaaS Facturation</a></b><br/>
+<code>Symfony</code> <code>PostgreSQL</code> <code>Docker</code><br/><br/>
+Application de gestion et facturation, de l'authentification à la modélisation des données.
+</td>
+</tr>
+</table>
+
+<a id="catalogue"></a>
+<div align="center">
+<h3><code>> find ./projects -type f</code></h3>
+</div>
+
+Tous les dépôts publics (applications, projets de formation, expérimentations, IA, sécurité) sont regroupés dans un index séparé, pour garder le profil lisible.
+
+<p align="center">
+  <a href="./PROJECTS.md"><b>→ Ouvrir le catalogue complet des projets publics</b></a><br/>
+  <a href="https://github.com/loic31000?tab=repositories">→ Explorer les dépôts triés par activité sur GitHub</a>
+</p>
+
+<sub>L'index est généré à partir des dépôts publics par un workflow dédié. Les dépôts privés, lorsqu'ils sont cités dans les archives ci-dessous, ne sont pas accessibles aux visiteurs.</sub>
+
+<details>
+<summary><b><code>> cat ./projects/la-plateforme.md</code> · Projets de formation (détails)</b></summary>
 
 ## 🏆 Projets phares - La Plateforme
 
@@ -206,8 +276,10 @@ projectiles, collisions et entités orientées objet.
 
 </tbody>
 </table>
+</details>
 
----
+<details>
+<summary><b><code>> cat ./projects/personal.md</code> · Projets personnels, open source et cyber (détails)</b></summary>
 
 ## 🔐 Projets personnels, open source & cybersécurité
 
@@ -382,8 +454,17 @@ des fichiers multimédias en masse.
 
 </tbody>
 </table>
+</details>
 
 ---
+
+<a id="about"></a>
+<div align="center">
+<h3><code>> ls -la ./more-about-me</code></h3>
+</div>
+
+<details>
+<summary><b><code>> cat ./experience.log</code> · Formation & expérience</b></summary>
 
 <div align="center">
 <h3><code>> cat ./experience.log</code></h3>
@@ -417,8 +498,10 @@ Projets :
 → ThreadFront
 → Earth Defender
 ```
+</details>
 
----
+<details>
+<summary><b><code>> cat ./cyber-focus.md</code> · Domaines cyber</b></summary>
 
 <div align="center">
 <h3><code>> cat ./cyber-focus.md</code></h3>
@@ -502,8 +585,10 @@ Projets :
 </table>
 
 </div>
+</details>
 
----
+<details>
+<summary><b><code>> cat ./stack.json</code> · Stack complète & outils</b></summary>
 
 <div align="center">
 <h3><code>> cat ./stack.json</code></h3>
@@ -574,9 +659,11 @@ Projets :
 ![Apache](https://img.shields.io/badge/Apache-0D1117?style=for-the-badge&logo=apache&logoColor=00FF41)
 ![n8n](https://img.shields.io/badge/n8n-0D1117?style=for-the-badge&logo=n8n&logoColor=00FF41)
 ![AI / LLM](https://img.shields.io/badge/AI_%2F_LLM-0D1117?style=for-the-badge&logo=openai&logoColor=00FF41)
+</details>
 
 ---
 
+<a id="stats"></a>
 <div align="center">
 <h3><code>> ./github --stats</code></h3>
 </div>
@@ -601,7 +688,6 @@ Projets :
   <img src="./assets/repository-stats.svg" width="49%" alt="GitHub repository overview">
   <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" width="49%">
 </p>
-
 ---
 
 <div align="center">
@@ -617,7 +703,6 @@ Projets :
 </pre>
 
 </div>
-
 ---
 
 <div align="center">
