@@ -146,7 +146,7 @@ def render_catalog(repositories: list[dict]) -> str:
         "**" + str(len(repositories)) + " dépôts publics** (hors dépôt de profil) · "
         "[Voir le tri GitHub par activité](https://github.com/" + OWNER + "?tab=repositories)",
         "",
-        "---",
+        "<hr>",
         "",
     ]
 
@@ -176,7 +176,7 @@ def render_catalog(repositories: list[dict]) -> str:
         lines.append("")
 
     lines += [
-        "---",
+        "<hr>",
         "",
         "<sub>Index généré par <code>.github/scripts/update-projects.py</code>. "
         "Ne pas modifier manuellement : la prochaine exécution écraserait les changements.</sub>",
