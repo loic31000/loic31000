@@ -64,7 +64,7 @@ Je développe également des outils autour de la **cybersécurité**, du **rése
 
 <a id="selection"></a>
 <div align="center">
-<h3><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2600&amp;pause=16000&amp;color=00FF41&amp;center=true&amp;vCenter=true&amp;width=560&amp;height=44&amp;lines=%3E+ls+-la+.%2Fselected-projects" alt="&gt; ls -la ./selected-projects" width="560" height="44"></h3>
+<h3><code>> ls -la ./selected-projects</code></h3>
 </div>
 
 **Quelques projets à explorer en priorité.** Même ADN full-stack / sécurité / open source, sans transformer la page d'accueil en inventaire technique.
@@ -112,7 +112,7 @@ Outil de renommage en lot avec aperçu avant/après, conventions de nommage et p
 
 <a id="catalogue"></a>
 <div align="center">
-<h3><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2600&amp;pause=16000&amp;color=00FF41&amp;center=true&amp;vCenter=true&amp;width=560&amp;height=44&amp;lines=%3E+find+.%2Fprojects+-type+f" alt="&gt; find ./projects -type f" width="560" height="44"></h3>
+<h3><code>> find ./projects -type f</code></h3>
 </div>
 
 Tous les dépôts publics (applications, projets de formation, expérimentations, IA, sécurité) sont regroupés dans un index séparé, pour garder le profil lisible.
@@ -505,7 +505,7 @@ Suivi de données publiques de wallets : collecte asynchrone, alertes Discord et
 
 <a id="about"></a>
 <div align="center">
-<h3><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2600&amp;pause=16000&amp;color=00FF41&amp;center=true&amp;vCenter=true&amp;width=560&amp;height=44&amp;lines=%3E+ls+-la+.%2Fmore-about-me" alt="&gt; ls -la ./more-about-me" width="560" height="44"></h3>
+<h3><code>> ls -la ./more-about-me</code></h3>
 </div>
 
 <details>
@@ -710,7 +710,7 @@ Projets :
 
 <a id="stats"></a>
 <div align="center">
-<h3><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=2600&amp;pause=16000&amp;color=00FF41&amp;center=true&amp;vCenter=true&amp;width=560&amp;height=44&amp;lines=%3E+.%2Fgithub+--stats" alt="&gt; ./github --stats" width="560" height="44"></h3>
+<h3><code>> ./github --stats</code></h3>
 </div>
 
 <!-- Stats générées automatiquement par GitHub Actions -->
