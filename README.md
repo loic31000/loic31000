@@ -109,6 +109,29 @@ Outil de renommage en lot avec aperçu avant/après, conventions de nommage et p
 
 </table>
 
+<details>
+<summary><b><code>> ./preview.sh --selected</code> · Voir les interfaces (5 captures)</b></summary>
+
+<p align="center">
+  <sub>Quelques écrans concrets — cliquer sur une image pour l'agrandir.</sub>
+</p>
+
+<p align="center">
+  <a href="./assets/showcase/cyberhub.webp"><img src="./assets/showcase/cyberhub.webp" width="49%" alt="CyberHub — dashboard d'investigation et de veille cybersécurité"></a>
+  <a href="./assets/showcase/nexus-models.png"><img src="./assets/showcase/nexus-models.png" width="49%" alt="Nexus Local Agents — gestion des modèles IA locaux"></a>
+</p>
+
+<p align="center">
+  <a href="./assets/showcase/mediastation.png"><img src="./assets/showcase/mediastation.png" width="49%" alt="MediaStation — interface React de détail d'un média"></a>
+  <a href="./assets/showcase/filerenamer.png"><img src="./assets/showcase/filerenamer.png" width="49%" alt="FileRenamer — prévisualisation du renommage de fichiers multimédias"></a>
+</p>
+
+<p align="center">
+  <a href="./assets/showcase/bgp-investigation.webp"><img src="./assets/showcase/bgp-investigation.webp" width="75%" alt="BGP Hijack Investigation — rapport d'investigation réseau interactif"></a>
+</p>
+
+</details>
+
 <a id="catalogue"></a>
 <div align="center">
 <h3><code>> find ./projects -type f</code></h3>
