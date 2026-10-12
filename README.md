@@ -109,28 +109,6 @@ Outil de renommage en lot avec aperçu avant/après, conventions de nommage et p
 
 </table>
 
-<details>
-<summary><b><code>> ./preview.sh --selected</code> · Voir les interfaces (5 captures)</b></summary>
-
-<p align="center">
-  <sub>Quelques écrans concrets - cliquer sur une image pour l'agrandir.</sub>
-</p>
-
-<p align="center">
-  <a href="./assets/showcase/cyberhub.webp"><img src="./assets/showcase/cyberhub.webp" width="49%" alt="CyberHub - dashboard d'investigation et de veille cybersécurité"></a>
-  <a href="./assets/showcase/nexus-models.png"><img src="./assets/showcase/nexus-models.png" width="49%" alt="Nexus Local Agents - gestion des modèles IA locaux"></a>
-</p>
-
-<p align="center">
-  <a href="./assets/showcase/mediastation.png"><img src="./assets/showcase/mediastation.png" width="49%" alt="MediaStation - interface React de détail d'un média"></a>
-  <a href="./assets/showcase/filerenamer.png"><img src="./assets/showcase/filerenamer.png" width="49%" alt="FileRenamer - prévisualisation du renommage de fichiers multimédias"></a>
-</p>
-
-<p align="center">
-  <a href="./assets/showcase/bgp-investigation.webp"><img src="./assets/showcase/bgp-investigation.webp" width="75%" alt="BGP Hijack Investigation - rapport d'investigation réseau interactif"></a>
-</p>
-
-</details>
 
 <a id="catalogue"></a>
 <div align="center">
@@ -145,7 +123,6 @@ Tous les dépôts publics (applications, projets de formation, expérimentations
 </p>
 
 <sub>Le catalogue public est actualisé séparément. Les projets personnels privés sont décrits plus bas, après les archives des projets publics et de formation.</sub>
-
 
 
 <details>
@@ -482,9 +459,6 @@ des fichiers multimédias en masse.
 </table>
 </details>
 
-<div align="center">
-<h3><code>> ls -la ./personal</code></h3>
-</div>
 
 <details>
 <summary><b><code>> cat ./personal/private.md</code> · Projets personnels privés (présentation uniquement)</b></summary>
@@ -500,7 +474,30 @@ Médiathèque auto-hébergée avec catalogue, intégration de métadonnées, lec
 **📡 Polymarket Discord Tracker** · <code>Python</code> <code>Discord</code> <code>APIs</code> <code>🔒 privé</code>  
 Suivi de données publiques de wallets : collecte asynchrone, alertes Discord et analyse heuristique d'activité. Pas un système de détection certaine de fraude.
 
-<sub>Autres travaux privés de formation ou personnels : MarsAI, Médiathèque et FacturePro, documentés dans les archives ci-dessous. Les autres dépôts privés restent volontairement non présentés.</sub>
+<sub>Autres travaux privés de formation ou personnels : MarsAI, Médiathèque et FacturePro, documentés dans les archives ci-dessus. Les autres dépôts privés restent volontairement non présentés.</sub>
+
+</details>
+
+<details>
+<summary><b><code>> ./preview.sh --selected</code> · Voir les interfaces (5 captures)</b></summary>
+
+<p align="center">
+  <sub>Quelques écrans concrets - cliquer sur une image pour l'agrandir.</sub>
+</p>
+
+<p align="center">
+  <a href="./assets/showcase/cyberhub.webp"><img src="./assets/showcase/cyberhub.webp" width="49%" alt="CyberHub - dashboard d'investigation et de veille cybersécurité"></a>
+  <a href="./assets/showcase/nexus-models.png"><img src="./assets/showcase/nexus-models.png" width="49%" alt="Nexus Local Agents - gestion des modèles IA locaux"></a>
+</p>
+
+<p align="center">
+  <a href="./assets/showcase/mediastation.png"><img src="./assets/showcase/mediastation.png" width="49%" alt="MediaStation - interface React de détail d'un média"></a>
+  <a href="./assets/showcase/filerenamer.png"><img src="./assets/showcase/filerenamer.png" width="49%" alt="FileRenamer - prévisualisation du renommage de fichiers multimédias"></a>
+</p>
+
+<p align="center">
+  <a href="./assets/showcase/bgp-investigation.webp"><img src="./assets/showcase/bgp-investigation.webp" width="75%" alt="BGP Hijack Investigation - rapport d'investigation réseau interactif"></a>
+</p>
 
 </details>
 
