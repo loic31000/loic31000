@@ -152,7 +152,9 @@ Projet Full-Stack réalisé en équipe avec intégration frontend/backend et log
 <td valign="top">
 <code>React</code>
 <code>Node.js</code>
-<code>JavaScript / TypeScript</code>
+<code>Express</code>
+<code>MySQL</code>
+<code>JavaScript</code>
 <code>Tailwind</code>
 </td>
 </tr>
@@ -166,10 +168,10 @@ gestion de données relationnelles et attention portée à la sécurité des don
 </td>
 <td valign="top">
 <code>PHP</code>
-<code>Symfony</code>
-<code>Doctrine</code>
-<code>SQL</code>
 <code>MVC</code>
+<code>PDO</code>
+<code>MySQL</code>
+<code>CSRF</code>
 </td>
 </tr>
 
@@ -189,7 +191,6 @@ modélisation Doctrine et environnement conteneurisé.
 <code>Twig</code>
 <code>Tailwind</code>
 <code>Docker</code>
-<code>PHPUnit</code>
 </td>
 </tr>
 
@@ -242,7 +243,7 @@ formulaires et environnement Docker.
 Application sociale Full-Stack avec inscription et connexion JWT,
 feed avec scroll infini, création de threads, pages de détail,
 profils utilisateurs et gestion sécurisée des sessions.
-Architecture entièrement conteneurisée.
+Base MySQL et phpMyAdmin conteneurisées.
 </td>
 <td valign="top">
 <code>React 19</code>
@@ -255,7 +256,6 @@ Architecture entièrement conteneurisée.
 <code>JWT</code>
 <code>bcrypt</code>
 <code>Docker Compose</code>
-<code>Apache</code>
 </td>
 </tr>
 
@@ -263,9 +263,9 @@ Architecture entièrement conteneurisée.
 <td valign="top">🌍 <b><a href="https://github.com/loic31000/Earth-Defender-Project">Earth Defender</a></b></td>
 <td valign="top"><b>La Plateforme - TypeScript / Game Dev</b></td>
 <td valign="top">
-Jeu d'arcade spatial où le joueur protège la Terre contre des vagues
-d'astéroïdes et d'envahisseurs. Gestion du score, vies, vagues,
-projectiles, collisions et entités orientées objet.
+Jeu d'arcade spatial où le joueur protège la Terre contre des aliens.
+Gestion du score, des points de vie de la Terre, apparition progressive
+des ennemis, lasers, collisions et entités orientées objet.
 </td>
 <td valign="top">
 <code>TypeScript</code>
