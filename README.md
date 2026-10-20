@@ -455,6 +455,58 @@ des fichiers multimédias en masse.
 </td>
 </tr>
 
+<tr>
+<td valign="top">🤖 <b><a href="https://github.com/loic31000/local-agents">Nexus · Local Agents</a></b></td>
+<td valign="top">
+Plateforme d'IA 100 % locale : orchestrateur Go, agents Python, dashboard React,
+gestion des modèles Ollama, fine-tuning LoRA, observabilité, bot Discord Jarvis
+et module de sécurité intégré. Aucun cloud requis, fonctionne sur CPU et GPU AMD / NVIDIA.
+</td>
+<td valign="top">
+<code>Go</code>
+<code>Python</code>
+<code>React</code>
+<code>TypeScript</code>
+<code>Ollama</code>
+<code>LoRA</code>
+<code>Docker Compose</code>
+</td>
+</tr>
+
+<tr>
+<td valign="top">🔎 <b><a href="https://github.com/loic31000/security-ci">Security CI</a></b></td>
+<td valign="top">
+Workflow GitHub Actions réutilisable qui lance des audits de sécurité directement
+dans les Pull Requests : analyse du code, dépendances, secrets dans l'historique Git,
+risques des workflows et contrôles qualité, sans installer les scanners à la main.
+</td>
+<td valign="top">
+<code>GitHub Actions</code>
+<code>Semgrep</code>
+<code>Trivy</code>
+<code>Gitleaks</code>
+<code>zizmor</code>
+<code>DevSecOps</code>
+</td>
+</tr>
+
+<tr>
+<td valign="top">🩺 <b><a href="https://github.com/loic31000/journal-migraines">Mon Journal Migraines</a></b></td>
+<td valign="top">
+Application Android de suivi des maux de tête, 100 % locale : aucun compte,
+aucune permission internet. Saisie rapide de la journée, mode crise,
+bilans de la semaine et du mois, suivi autour du cycle et rapport PDF pour le médecin.
+</td>
+<td valign="top">
+<code>Capacitor</code>
+<code>JavaScript</code>
+<code>HTML / CSS</code>
+<code>jsPDF</code>
+<code>Android</code>
+<code>Privacy by Design</code>
+</td>
+</tr>
+
 </tbody>
 </table>
 </details>
@@ -486,7 +538,7 @@ Suivi de données publiques de wallets : collecte asynchrone, alertes Discord et
 </p>
 
 <p align="center">
-  <a href="./assets/showcase/cyberhub.webp"><img src="./assets/showcase/cyberhub.webp" width="49%" alt="CyberHub - dashboard d'investigation et de veille cybersécurité"></a>
+  <a href="./assets/showcase/cyberhub.png"><img src="./assets/showcase/cyberhub.png" width="49%" alt="CyberHub - dashboard d'investigation et de veille cybersécurité"></a>
   <a href="./assets/showcase/nexus-models.png"><img src="./assets/showcase/nexus-models.png" width="49%" alt="Nexus Local Agents - gestion des modèles IA locaux"></a>
 </p>
 
