@@ -11,14 +11,14 @@ exercices et expérimentations. Les projets mis en avant sur le
 **Source :** API GitHub publique · **Actualisation :** chaque lundi via GitHub Actions.
 Les dépôts privés ne sont **jamais** lus ni publiés dans cet index.
 
-**33 dépôts publics** (hors dépôt de profil) · [Voir le tri GitHub par activité](https://github.com/loic31000?tab=repositories)
+**34 dépôts publics** (hors dépôt de profil) · [Voir le tri GitHub par activité](https://github.com/loic31000?tab=repositories)
 
 <hr>
 
 ## Sécurité, réseau & investigations (4)
 
 - **[CyberHub](https://github.com/loic31000/CyberHub)** - Hub de cybersécurité local : veille CVE, IOC, MITRE ATT&amp;CK, OSINT, BGP et playbooks de réponse à incident. Go, React et SQLite.  
-  <sub>TypeScript · dernier push 2026-10-26</sub>
+  <sub>TypeScript · dernier push 2026-11-02</sub>
 - **[security-ci](https://github.com/loic31000/security-ci)** - Workflow GitHub Actions réutilisable pour auditer le code, les dépendances, les secrets, l'infrastructure déclarative et les workflows GitHub Actions.  
   <sub>Python · dernier push 2026-10-25</sub>
 - **[bgp-monitor-orange-hijack](https://github.com/loic31000/bgp-monitor-orange-hijack)** - Moniteur BGP passif en Python (API RIPEstat), développé pendant l'enquête sur le hijack visant Orange France (AS3215).  
@@ -48,12 +48,14 @@ Les dépôts privés ne sont **jamais** lus ni publiés dans cet index.
 
 ## Applications web & full-stack (10)
 
+- **[AniRecap](https://github.com/loic31000/AniRecap)** - Application Symfony de récapitulatifs d'animes et de mangas : œuvres, saisons, épisodes, tomes, chapitres, personnages, favoris et résumés.  
+  <sub>PHP · dernier push 2026-11-02</sub>
+- **[phase3-symfony-tasklist-reloaded](https://github.com/loic31000/phase3-symfony-tasklist-reloaded)** - Une application de gestion de tâches priorisées et organisées en dossiers. Développée avec Symfony.  
+  <sub>PHP · dernier push 2026-11-02 · fork</sub>
 - **[tp-pokedex](https://github.com/loic31000/tp-pokedex)** - Pokédex en React 19, TypeScript et Vite, alimenté par l'API PokéBuild.  
   <sub>TypeScript · dernier push 2026-10-25</sub>
 - **[module5-react-threadfront](https://github.com/loic31000/module5-react-threadfront)** - ThreadFront : réseau social en React 19 et Express 5 (Sequelize, MySQL, JWT), projet du groupe 2 à La Plateforme.  
   <sub>stack non précisée · dernier push 2026-10-24 · fork</sub>
-- **[AniRecap](https://github.com/loic31000/AniRecap)** - Application Symfony de récapitulatifs d'animes et de mangas : œuvres, saisons, épisodes, tomes, chapitres, personnages, favoris et résumés.  
-  <sub>PHP · dernier push 2026-10-19</sub>
 - **[mvc_project](https://github.com/loic31000/mvc_project)** - Exercice d'architecture MVC en PHP 8.2 : routeur, contrôleurs, modèle PDO, MySQL et Docker.  
   <sub>PHP · dernier push 2026-10-04</sub>
 - **[phase3-symfony-facturation](https://github.com/loic31000/phase3-symfony-facturation)** - Application de facturation en Symfony 8 (PHP 8.4, Doctrine, PostgreSQL, Twig, Tailwind), projet de formation La Plateforme.  
@@ -62,8 +64,6 @@ Les dépôts privés ne sont **jamais** lus ni publiés dans cet index.
   <sub>JavaScript · dernier push 2026-10-04</sub>
 - **[Mini-Insta](https://github.com/loic31000/Mini-Insta)** - Mini galerie d'images en PHP avec upload de fichiers, sans base de données.  
   <sub>PHP · dernier push 2026-10-04</sub>
-- **[phase3-symfony-tasklist-reloaded](https://github.com/loic31000/phase3-symfony-tasklist-reloaded)** - Une application de gestion de tâches priorisées et organisées en dossiers. Développée avec Symfony.  
-  <sub>PHP · dernier push 2026-10-04 · fork</sub>
 - **[project-allocine](https://github.com/loic31000/project-allocine)** - Gestion de films et de dates de diffusion en PHP : architecture MVC, routeur maison, MySQL et Docker.  
   <sub>PHP · dernier push 2026-10-04</sub>
 - **[symfony_pokedex](https://github.com/loic31000/symfony_pokedex)** - Pokédex en Symfony 8 avec Doctrine, PostgreSQL, Tailwind et Docker Compose.  
@@ -95,10 +95,12 @@ Les dépôts privés ne sont **jamais** lus ni publiés dans cet index.
 - **[exercises-CSS](https://github.com/loic31000/exercises-CSS)** - Exercice HTML/CSS : mise en forme de cartes de présentation.  
   <sub>HTML · dernier push 2026-10-04</sub>
 
-## Autres dépôts publics (2)
+## Autres dépôts publics (3)
 
+- **[KERYNQ](https://github.com/loic31000/KERYNQ)** - Explorez. Affinez. Découvrez.  
+  <sub>Python · dernier push 2026-11-02</sub>
 - **[journal-migraines](https://github.com/loic31000/journal-migraines)** - Journal des maux de tête pour Android, 100 % local  
-  <sub>JavaScript · dernier push 2026-10-20</sub>
+  <sub>JavaScript · dernier push 2026-10-27</sub>
 - **[GhostNet](https://github.com/loic31000/GhostNet)** - Code et documentation à découvrir sur le dépôt.  
   <sub>stack non précisée · dernier push 2026-03-31 · fork</sub>
 
