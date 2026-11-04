@@ -4,9 +4,9 @@
   <text x="30" y="38" font-size="22" fill="#0366d6">Recent Activity</text>
 
   <text x="30" y="78" font-size="13" fill="#77909c">Commits · 30d</text>
-  <text x="155" y="78" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">301</text>
+  <text x="155" y="78" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">273</text>
   <text x="185" y="78" font-size="13" fill="#77909c">Repos · 30d</text>
-  <text x="310" y="78" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">23</text>
+  <text x="310" y="78" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">11</text>
 
   <text x="30" y="122" font-size="13" fill="#77909c">PRs authored</text>
   <text x="155" y="122" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">186</text>
@@ -14,5 +14,5 @@
   <text x="310" y="122" text-anchor="end" font-size="17" font-weight="700" fill="#40c463">303</text>
 
   <text x="30" y="166" font-size="12" fill="#77909c">GitHub-attributed activity · visible to token</text>
-  <text x="310" y="185" text-anchor="end" font-size="10" fill="#77909c">updated 2026-11-03</text>
+  <text x="310" y="185" text-anchor="end" font-size="10" fill="#77909c">updated 2026-11-04</text>
 </svg>
