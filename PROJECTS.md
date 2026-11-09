@@ -11,16 +11,14 @@ exercices et expérimentations. Les projets mis en avant sur le
 **Source :** API GitHub publique · **Actualisation :** chaque lundi via GitHub Actions.
 Les dépôts privés ne sont **jamais** lus ni publiés dans cet index.
 
-**34 dépôts publics** (hors dépôt de profil) · [Voir le tri GitHub par activité](https://github.com/loic31000?tab=repositories)
+**33 dépôts publics** (hors dépôt de profil) · [Voir le tri GitHub par activité](https://github.com/loic31000?tab=repositories)
 
 <hr>
 
-## Sécurité, réseau & investigations (4)
+## Sécurité, réseau & investigations (3)
 
 - **[CyberHub](https://github.com/loic31000/CyberHub)** - Hub de cybersécurité local : veille CVE, IOC, MITRE ATT&amp;CK, OSINT, BGP et playbooks de réponse à incident. Go, React et SQLite.  
-  <sub>TypeScript · dernier push 2026-11-02</sub>
-- **[security-ci](https://github.com/loic31000/security-ci)** - Workflow GitHub Actions réutilisable pour auditer le code, les dépendances, les secrets, l'infrastructure déclarative et les workflows GitHub Actions.  
-  <sub>Python · dernier push 2026-10-25</sub>
+  <sub>TypeScript · dernier push 2026-11-05</sub>
 - **[bgp-monitor-orange-hijack](https://github.com/loic31000/bgp-monitor-orange-hijack)** - Moniteur BGP passif en Python (API RIPEstat), développé pendant l'enquête sur le hijack visant Orange France (AS3215).  
   <sub>Python · dernier push 2026-10-21</sub>
 - **[bgp-hijack-orange-2026](https://github.com/loic31000/bgp-hijack-orange-2026)** - Investigation technique indépendante BGP Hijack visant Orange France (AS3215). Rapport final corrigé après revue avec Doug Madory (Kentik).  
@@ -48,6 +46,10 @@ Les dépôts privés ne sont **jamais** lus ni publiés dans cet index.
 
 ## Applications web & full-stack (10)
 
+- **[symfony_pokedex](https://github.com/loic31000/symfony_pokedex)** - Pokédex en Symfony 8 avec Doctrine, PostgreSQL, Tailwind et Docker Compose.  
+  <sub>PHP · dernier push 2026-11-03</sub>
+- **[phase3-symfony-facturation](https://github.com/loic31000/phase3-symfony-facturation)** - Application de facturation en Symfony 8 (PHP 8.4, Doctrine, PostgreSQL, Twig, Tailwind), projet de formation La Plateforme.  
+  <sub>PHP · dernier push 2026-11-03 · fork</sub>
 - **[AniRecap](https://github.com/loic31000/AniRecap)** - Application Symfony de récapitulatifs d'animes et de mangas : œuvres, saisons, épisodes, tomes, chapitres, personnages, favoris et résumés.  
   <sub>PHP · dernier push 2026-11-02</sub>
 - **[phase3-symfony-tasklist-reloaded](https://github.com/loic31000/phase3-symfony-tasklist-reloaded)** - Une application de gestion de tâches priorisées et organisées en dossiers. Développée avec Symfony.  
@@ -58,16 +60,12 @@ Les dépôts privés ne sont **jamais** lus ni publiés dans cet index.
   <sub>stack non précisée · dernier push 2026-10-24 · fork</sub>
 - **[mvc_project](https://github.com/loic31000/mvc_project)** - Exercice d'architecture MVC en PHP 8.2 : routeur, contrôleurs, modèle PDO, MySQL et Docker.  
   <sub>PHP · dernier push 2026-10-04</sub>
-- **[phase3-symfony-facturation](https://github.com/loic31000/phase3-symfony-facturation)** - Application de facturation en Symfony 8 (PHP 8.4, Doctrine, PostgreSQL, Twig, Tailwind), projet de formation La Plateforme.  
-  <sub>PHP · dernier push 2026-10-04 · fork</sub>
 - **[PokedexSPA](https://github.com/loic31000/PokedexSPA)** - Pokédex en Single Page Application, en JavaScript natif, alimenté par l'API PokéBuild : recherche, types et évolutions.  
   <sub>JavaScript · dernier push 2026-10-04</sub>
 - **[Mini-Insta](https://github.com/loic31000/Mini-Insta)** - Mini galerie d'images en PHP avec upload de fichiers, sans base de données.  
   <sub>PHP · dernier push 2026-10-04</sub>
 - **[project-allocine](https://github.com/loic31000/project-allocine)** - Gestion de films et de dates de diffusion en PHP : architecture MVC, routeur maison, MySQL et Docker.  
   <sub>PHP · dernier push 2026-10-04</sub>
-- **[symfony_pokedex](https://github.com/loic31000/symfony_pokedex)** - Pokédex en Symfony 8 avec Doctrine, PostgreSQL, Tailwind et Docker Compose.  
-  <sub>PHP · dernier push 2026-04-21</sub>
 
 ## Jeux & expériences créatives (6)
 
@@ -97,7 +95,7 @@ Les dépôts privés ne sont **jamais** lus ni publiés dans cet index.
 
 ## Autres dépôts publics (3)
 
-- **[KERYNQ](https://github.com/loic31000/KERYNQ)** - Explorez. Affinez. Découvrez.  
+- **[KERYNQ](https://github.com/loic31000/KERYNQ)** - Atelier de recherche Web et IA : 39 univers, 28 moteurs, prompts personnalisés. HTML, CSS, JS et PWA, sans serveur ni compte.  
   <sub>Python · dernier push 2026-11-02</sub>
 - **[journal-migraines](https://github.com/loic31000/journal-migraines)** - Journal des maux de tête pour Android, 100 % local  
   <sub>JavaScript · dernier push 2026-10-27</sub>
