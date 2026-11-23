@@ -96,7 +96,7 @@ Les dépôts privés ne sont **jamais** lus ni publiés dans cet index.
 ## Autres dépôts publics (3)
 
 - **[journal-migraines](https://github.com/loic31000/journal-migraines)** - Journal des maux de tête pour Android, 100 % local  
-  <sub>JavaScript · dernier push 2026-11-10</sub>
+  <sub>JavaScript · dernier push 2026-11-17</sub>
 - **[KERYNQ](https://github.com/loic31000/KERYNQ)** - Atelier de recherche Web et IA : 39 univers, 28 moteurs, prompts personnalisés. HTML, CSS, JS et PWA, sans serveur ni compte.  
   <sub>Python · dernier push 2026-11-02</sub>
 - **[GhostNet](https://github.com/loic31000/GhostNet)** - Code et documentation à découvrir sur le dépôt.  
